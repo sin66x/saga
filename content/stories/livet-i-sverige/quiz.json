@@ -1,0 +1,141 @@
+{
+  "formatVersion": 1,
+  "questions": [
+    {
+      "id": "q01", "type": "choice", "category": "comprehension", "difficulty": 1,
+      "prompt": "Var bor Nadia?",
+      "options": ["I Umeå", "I Uppsala", "I Göteborg"],
+      "answer": 1,
+      "explanation": "Nadia has just moved to Uppsala, where she has a new flat and a new job at a hospital.",
+      "swedish": "Hon har precis flyttat till Uppsala.",
+      "pageId": "p01"
+    },
+    {
+      "id": "q02", "type": "truefalse", "category": "culture", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "I Sverige tar man oftast av sig skorna när man går in i ett hem.",
+      "answer": true,
+      "explanation": "True. In Swedish homes you normally take your shoes off in the hall – especially in winter, when shoes are wet and dirty.",
+      "swedish": "– Ja, det gör man i Sverige, säger Karin. Vi går inte in med skor.",
+      "pageId": "p02"
+    },
+    {
+      "id": "q03", "type": "choice", "category": "culture", "difficulty": 1,
+      "prompt": "Vad betyder fika i Sverige?",
+      "options": ["Att äta en stor middag med familjen", "Att ta en paus med kaffe eller te och något gott", "Att arbeta extra på kvällen"],
+      "answer": 1,
+      "explanation": "Fika means having coffee or tea with something sweet – and above all taking a break and talking together. Many workplaces have a daily fika.",
+      "swedish": "Men det viktigaste är att man pratar och tar en paus tillsammans.",
+      "pageId": "p03"
+    },
+    {
+      "id": "q04", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad är fredagsmys?",
+      "options": ["En mysig fredagskväll hemma, ofta med tacos och tv", "En marknad på fredagar", "Ett skolämne"],
+      "answer": 0,
+      "explanation": "“Fredagsmys” (Friday cosiness) is a relaxed Friday evening at home. Many families eat tacos and watch TV together.",
+      "swedish": "På fredagar äter många familjer tacos och tittar på tv. Det kallas fredagsmys.",
+      "pageId": "p04"
+    },
+    {
+      "id": "q05", "type": "truefalse", "category": "culture", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "Lucia firas i december.",
+      "answer": true,
+      "explanation": "True. Lucia is celebrated on 13 December, in the darkest time of the year, with candles, songs and saffron buns.",
+      "swedish": "Det är den 13 december och mörkt ute.",
+      "pageId": "p05"
+    },
+    {
+      "id": "q06", "type": "choice", "category": "culture", "difficulty": 1,
+      "prompt": "När firar man jul mest i Sverige?",
+      "options": ["Den 24 december, på julafton", "Den 25 december, på juldagen", "Den 31 december"],
+      "answer": 0,
+      "explanation": "In Sweden the main Christmas celebration is on Christmas Eve, 24 December – with the Christmas buffet, Donald Duck on TV and presents.",
+      "swedish": "I Sverige firar man mest på julafton, den 24 december.",
+      "pageId": "p06"
+    },
+    {
+      "id": "q07", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad tittar många svenskar på klockan 15 på julafton?",
+      "options": ["Nyheterna", "Kalle Anka", "En fotbollsmatch"],
+      "answer": 1,
+      "explanation": "Since 1960 Swedish TV has shown the Disney programme “Kalle Anka och hans vänner” at 3 pm on Christmas Eve. Millions watch it every year.",
+      "swedish": "På eftermiddagen tittar alla på Kalle Anka på tv. Det har man gjort sedan 1960.",
+      "pageId": "p06"
+    },
+    {
+      "id": "q08", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad är barnen utklädda till på påsken?",
+      "options": ["Tomtar", "Påskkärringar", "Vikingar"],
+      "answer": 1,
+      "explanation": "At Easter, children dress up as “påskkärringar” (little Easter witches) with headscarves and red cheeks. The tradition comes from the old belief that witches flew to Blåkulla at Easter.",
+      "swedish": "Barnen är klädda som påskkärringar.",
+      "pageId": "p07"
+    },
+    {
+      "id": "q09", "type": "choice", "category": "vocabulary", "difficulty": 2,
+      "prompt": "What does “högtid” mean?",
+      "options": ["high tide", "a holiday or festive occasion", "a long time"],
+      "answer": 1,
+      "explanation": "A “högtid” is a holiday or festive occasion, such as Christmas, Easter or Midsummer. Literally “high time”.",
+      "wrong": { "0": "High tide is “högvatten”. Högtid is a false friend!" },
+      "swedish": "Det är dags för midsommar, en av årets största högtider.",
+      "pageId": "p08"
+    },
+    {
+      "id": "q10", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "När är midsommarafton?",
+      "options": ["Alltid den 24 juni", "En fredag mellan den 19 och den 25 juni", "Den första måndagen i juli"],
+      "answer": 1,
+      "explanation": "Midsummer Eve is always on a Friday between 19 and 25 June, close to the longest day of the year.",
+      "swedish": "Midsommarafton är alltid en fredag mellan den 19 och den 25 juni.",
+      "pageId": "p08"
+    },
+    {
+      "id": "q11", "type": "truefalse", "category": "culture", "difficulty": 2,
+      "prompt": "Sant eller falskt?",
+      "statement": "Enligt allemansrätten får man tälta precis bredvid någons hus.",
+      "answer": false,
+      "explanation": "False. The right of public access lets you walk, pick berries and camp for a night or two – but not too close to someone's home. The rule is “don't disturb, don't destroy”.",
+      "swedish": "Men man ska inte vara för nära någons hus.",
+      "pageId": "p09"
+    },
+    {
+      "id": "q12", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Hur många dagar föräldraledighet får föräldrar dela på per barn?",
+      "options": ["90 dagar", "240 dagar", "480 dagar"],
+      "answer": 2,
+      "explanation": "Parents share 480 days of paid parental leave per child. 90 of the days are reserved for each parent, so fathers are encouraged to stay home too.",
+      "swedish": "Föräldrarna får dela på 480 dagar per barn.",
+      "pageId": "p11"
+    },
+    {
+      "id": "q13", "type": "choice", "category": "vocabulary", "difficulty": 1,
+      "prompt": "What does “lagom” mean?",
+      "options": ["just right – not too much, not too little", "very slow", "late"],
+      "answer": 0,
+      "explanation": "“Lagom” means just the right amount. It's often said to describe a Swedish ideal of balance.",
+      "swedish": "Lagom betyder inte för mycket och inte för lite.",
+      "pageId": "p12"
+    },
+    {
+      "id": "q14", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad är pant?",
+      "options": ["Pengar man får tillbaka för tomma burkar och flaskor", "En sorts svensk mat", "En kö på apoteket"],
+      "answer": 0,
+      "explanation": "“Pant” is a deposit on cans and bottles. You return the empty ones to the shop and get money back.",
+      "swedish": "Tomma burkar och flaskor lämnar man tillbaka i affären. Det heter pant.",
+      "pageId": "p13"
+    },
+    {
+      "id": "q15", "type": "choice", "category": "comprehension", "difficulty": 3,
+      "prompt": "Varför säger Karin att Nadia är ”nästan mer svensk” än hon själv?",
+      "options": ["Nadia har bytt namn.", "Nadia bjuder på fika och säger åt Karin att ta av sig skorna.", "Nadia pratar inte längre med Karin."],
+      "answer": 1,
+      "explanation": "This needs a little interpretation: Nadia has baked cinnamon buns, invites Karin for fika and reminds her to take her shoes off – all the customs Karin once taught her.",
+      "swedish": "– Kom in och fika hos mig, säger hon. Och ta av dig skorna!",
+      "pageId": "p14"
+    }
+  ]
+}

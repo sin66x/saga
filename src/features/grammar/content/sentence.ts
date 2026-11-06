@@ -1,0 +1,87 @@
+import { ex, fill, fix, type GrammarTopic, mc, order, p, table, tf, tip } from '../types';
+
+export const sentenceTopics: GrammarTopic[] = [
+  {
+    id: 'sentence-v2',
+    category: 'sentence',
+    title: 'Word order: the V2 rule',
+    titleSv: 'Ordföljd och V2-regeln',
+    level: 'A2',
+    summary: 'The verb is always the second element in a main clause.',
+    lesson: [
+      p('In a Swedish main clause the finite verb (the one with tense) is **always in position 2**. Position 1 can be the subject – or something else, like a time or place.'),
+      table(['Position 1', 'Verb (2)', 'Subject', 'Rest'], [
+        ['Jag', 'åker', '—', 'hem i dag.'],
+        ['I dag', 'åker', 'jag', 'hem.'],
+        ['Hem', 'åker', 'jag', 'i dag.'],
+      ]),
+      p('When something other than the subject comes first, the subject moves **after** the verb. This is called **inversion** (omvänd ordföljd).'),
+      ex(['På vintern är det mörkt.', 'In winter it is dark.'], ['Sedan kom industrin.', 'Then came industry.'], ['I Sverige firar man midsommar.', 'In Sweden people celebrate midsummer.']),
+      tip('A whole subordinate clause can be position 1: "När Daniel landar, är det mörkt." The verb (är) still comes next.'),
+    ],
+    exercises: [
+      mc('e1', 1, 'Choose the correct sentence.', null, ['I morgon jag jobbar.', 'I morgon jobbar jag.', 'Jobbar i morgon jag.'], 1, '"I morgon" is in position 1, so the verb jobbar must come next, then the subject.'),
+      order('e2', 1, 'Start with "På lördag".', ['På', 'lördag', 'ska', 'vi', 'fika'], 'Time phrase first → verb (ska) second → subject (vi).', { end: '.', translation: 'On Saturday we are going to have fika.' }),
+      fix('e3', 2, 'Efter jobbet jag går till gymmet.', ['Efter jobbet går jag till gymmet.', 'Efter jobbet jag gå till gymmet.', 'Jag efter jobbet går till gymmet.'], 0, 'Efter jobbet = position 1, so the verb går must be in position 2.'),
+      order('e4', 2, 'Start with "I Sverige".', ['I', 'Sverige', 'dricker', 'man', 'mycket', 'kaffe'], 'Place first, then verb, then subject (man).', { end: '.', translation: 'In Sweden people drink a lot of coffee.' }),
+      tf('e5', 2, 'Sedan åkte vi hem.', true, 'Correct! Sedan is in position 1, the verb åkte is second, and the subject vi follows.'),
+      mc('e6', 3, 'Choose the correct continuation.', 'När jag kom hem, ___', ['jag lagade mat.', 'lagade jag mat.', 'lagade mat jag.'], 1, 'The subordinate clause "När jag kom hem" is position 1, so the verb (lagade) comes next, then jag.'),
+      order('e7', 3, 'Start with "Varje sommar".', ['Varje', 'sommar', 'åker', 'familjen', 'till', 'landet'], 'Time first → verb åker → subject familjen.', { end: '.', translation: 'Every summer the family goes to the countryside.' }),
+    ],
+  },
+  {
+    id: 'sentence-questions',
+    category: 'sentence',
+    title: 'Asking questions',
+    titleSv: 'Frågor',
+    level: 'A1',
+    summary: 'Talar du svenska? Var bor du?',
+    lesson: [
+      p('**Yes/no questions** start with the verb: *Du talar svenska.* → *Talar du svenska?*'),
+      p('**Question-word questions** start with the question word, then the verb (V2!), then the subject: *Var bor du? När kommer bussen?*'),
+      ex(['Har du barn?', 'Do you have children?'], ['Vad heter du?', 'What is your name?'], ['Varför lär du dig svenska?', 'Why are you learning Swedish?']),
+      table(['Question', 'Answer'], [
+        ['Kommer du? (positive)', 'Ja. / Nej.'],
+        ['Kommer du inte? (negative)', 'Jo! (yes, I do) / Nej.'],
+      ]),
+      tip('"Jo" is a special yes used to contradict a negative question: "Talar du inte svenska?" – "Jo, lite!"'),
+    ],
+    exercises: [
+      order('e1', 1, 'Make a yes/no question.', ['Bor', 'du', 'i', 'Umeå'], 'Yes/no questions start with the verb.', { end: '?', translation: 'Do you live in Umeå?' }),
+      order('e2', 1, 'Make a question with "Var".', ['Var', 'jobbar', 'du'], 'Question word – verb – subject.', { end: '?', translation: 'Where do you work?' }),
+      mc('e3', 2, 'Choose the correct question.', null, ['Du har ett körkort?', 'Har du ett körkort?', 'Har ett körkort du?'], 1, 'In a yes/no question the verb comes first: Har du …?'),
+      mc('e4', 2, 'Answer the question positively.', '– Är du inte trött? – ___, lite.', ['Ja', 'Jo', 'Nej'], 1, 'To say yes to a negative question, use jo.'),
+      fix('e5', 3, 'Varför du lär dig svenska?', ['Varför lär du dig svenska?', 'Varför du lära dig svenska?', 'Lär varför du dig svenska?'], 0, 'After the question word comes the verb (lär), then the subject (du).'),
+    ],
+  },
+  {
+    id: 'sentence-negation',
+    category: 'sentence',
+    title: 'Negation and adverbs',
+    titleSv: 'Inte och satsadverb',
+    level: 'A2-B1',
+    summary: 'Jag talar inte … / … att jag inte talar.',
+    lesson: [
+      p('Words like **inte, aldrig, alltid, ofta, också, bara, redan, kanske** are *sentence adverbs*. Their position depends on the type of clause.'),
+      p('**Main clause:** the adverb comes **after** the finite verb (and after the subject when there is inversion).'),
+      ex(['Jag talar inte finska.', 'I don\'t speak Finnish.'], ['I dag jobbar jag inte.', 'Today I am not working.'], ['Jag har aldrig sett snö.', 'I have never seen snow.']),
+      p('**Subordinate clause** (after att, när, eftersom, om, som …): the adverb comes **before** the finite verb.'),
+      ex(['Han säger att han inte talar finska.', 'He says that he doesn\'t speak Finnish.'], ['… eftersom hon alltid kommer i tid.', '… because she always comes on time.']),
+      table(['Clause', 'Order'], [
+        ['main', 'subject – verb – inte'],
+        ['main, inverted', 'X – verb – subject – inte'],
+        ['subordinate', 'conjunction – subject – inte – verb'],
+      ]),
+      tip('A memory trick from SFI: in a subordinate clause, "inte" comes before the verb – "BIFF": Bisats – Inte Före Finit verb.'),
+    ],
+    exercises: [
+      mc('e1', 1, 'Where does "inte" go?', null, ['Jag inte dricker kaffe.', 'Jag dricker inte kaffe.', 'Inte jag dricker kaffe.'], 1, 'Main clause: inte comes after the verb.'),
+      mc('e2', 2, 'Choose the correct sentence.', null, ['I dag kommer inte han.', 'I dag kommer han inte.', 'I dag han kommer inte.'], 1, 'With inversion the order is: verb – subject – inte.'),
+      mc('e3', 2, 'Choose the correct subordinate clause.', 'Hon säger att hon ___ tid.', ['har inte', 'inte har', 'har tid inte'], 1, 'In a subordinate clause inte comes before the verb: att hon inte har tid.'),
+      order('e4', 2, 'Make a main clause.', ['Vi', 'har', 'aldrig', 'varit', 'i', 'Kiruna'], 'Aldrig goes after the finite verb har.', { end: '.', translation: 'We have never been to Kiruna.' }),
+      fix('e5', 3, 'Jag är ledsen eftersom jag har inte sovit.', ['Jag är ledsen eftersom jag inte har sovit.', 'Jag är ledsen eftersom har jag inte sovit.', 'Jag är ledsen eftersom inte jag har sovit.'], 0, 'After eftersom we have a subordinate clause, so inte comes before the finite verb har.'),
+      order('e6', 3, 'Make a subordinate clause.', ['om', 'du', 'inte', 'kan', 'komma'], 'Subordinate clause: conjunction – subject – inte – verb.', { translation: 'if you can\'t come' }),
+      fill('e7', 3, 'Write the three missing words (inte · har · sett) in the right order.', 'Jag tror att Daniel ___ snö förut.', ['inte har sett'], 'In the subordinate clause (after att) the adverb comes before the finite verb: att Daniel inte har sett snö.', 'I think Daniel hasn\'t seen snow before.'),
+    ],
+  },
+];

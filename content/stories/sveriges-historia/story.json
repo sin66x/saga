@@ -1,0 +1,318 @@
+{
+  "formatVersion": 1,
+  "id": "sveriges-historia",
+  "version": "1.0.0",
+  "language": "sv",
+  "title": {
+    "sv": "Sveriges historia",
+    "en": "The History of Sweden"
+  },
+  "description": {
+    "sv": "Från vikingar till idag. Följ med Ella och morfar på en resa genom tiden.",
+    "en": "From the Vikings to today. Join Ella and her grandfather on a journey through time."
+  },
+  "level": { "cefr": "A1-A2", "difficulty": 1 },
+  "estimatedReadingMinutes": 30,
+  "author": "Saga",
+  "cover": { "src": "cover.svg", "alt": "A Viking ship with a striped sail on a calm sea at sunrise", "aspect": 0.75 },
+  "theme": { "accent": "#B5543C", "coverTint": "#F3E3D3" },
+  "tags": ["history", "vikings", "kings"],
+  "accuracyNote": {
+    "sv": "Ella och morfar är påhittade. Fakta om historien är sanna.",
+    "en": "Ella and her grandfather are fictional characters. The historical facts are real."
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": { "sv": "Långt tillbaka", "en": "Long ago" },
+      "pages": [
+        {
+          "id": "p01",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p01.svg", "alt": "A girl and her grandfather walk up to a big stone museum", "aspect": 1.33 },
+          "paragraphs": [
+            "Det är lördag. Ella är tio år. Hon och morfar är i Stockholm. De går till ett stort museum. Det heter Historiska museet.",
+            "– Idag ska vi resa i tiden, säger morfar.",
+            "– Hur då? frågar Ella.",
+            "– Med berättelser, säger morfar och ler. Vi börjar för länge sedan."
+          ],
+          "summaryEn": "Ella (10) and her grandfather visit the Swedish History Museum in Stockholm. He promises to 'travel in time' with stories."
+        },
+        {
+          "id": "p02",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p02.svg", "alt": "Hunters in fur clothes by a lake, with reindeer and melting ice in the distance", "aspect": 1.4 },
+          "paragraphs": [
+            "För länge sedan låg det tjock is över hela Sverige. Det var mycket kallt. Sedan blev det varmare, och isen smälte långsamt.",
+            "De första människorna kom till södra Sverige för mer än 12 000 år sedan. De jagade ren och fiskade i sjöar och hav. De bodde i enkla hyddor av trä och skinn."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Under istiden var isen flera kilometer tjock.",
+              "en": "During the Ice Age, the ice over Sweden was several kilometres thick."
+            }
+          },
+          "summaryEn": "Thick ice once covered Sweden. When it melted, the first people arrived in southern Sweden more than 12,000 years ago. They hunted reindeer and fished."
+        },
+        {
+          "id": "p03",
+          "layout": "inset",
+          "kind": "history",
+          "image": { "src": "images/p03.svg", "alt": "Rock carvings of ships, animals and people on a smooth grey rock", "aspect": 1.2 },
+          "paragraphs": [
+            "För ungefär 6 000 år sedan började människorna odla. De blev bönder. De hade kor, får och grisar.",
+            "Senare lärde de sig att göra saker av brons. På stora stenar ritade de båtar, djur och människor. Bilderna heter hällristningar.",
+            "Man kan se dem än idag, till exempel i Tanum i Bohuslän."
+          ],
+          "summaryEn": "About 6,000 years ago people began farming. Later, in the Bronze Age, they carved pictures into rocks (hällristningar), which you can still see in Tanum."
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": { "sv": "Vikingarna", "en": "The Vikings" },
+      "pages": [
+        {
+          "id": "p04",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p04.svg", "alt": "A Viking village with long wooden houses, smoke rising from the roofs", "aspect": 1.4 },
+          "heading": "Vikingatiden",
+          "paragraphs": [
+            "Morfar och Ella går in i ett nytt rum. Här finns svärd, smycken och gamla mynt.",
+            "– Nu är vi på vikingatiden, säger morfar. Den var ungefär från år 800 till år 1050.",
+            "De flesta vikingar var bönder. De bodde i långa hus av trä. I ett långhus bodde en hel familj, och på vintern bodde djuren ofta där också."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Vikingarna hade inte horn på hjälmarna. Det är en myt.",
+              "en": "Vikings did not have horns on their helmets. That is a myth from the 1800s."
+            }
+          },
+          "summaryEn": "The Viking Age lasted roughly from 800 to 1050. Most Vikings were farmers who lived in longhouses, sometimes together with their animals in winter."
+        },
+        {
+          "id": "p05",
+          "layout": "full",
+          "kind": "history",
+          "image": { "src": "images/p05.svg", "alt": "A Viking longship with a red and white sail and round shields along the side", "aspect": 1.33 },
+          "paragraphs": [
+            "Vikingarna var duktiga på att bygga båtar. Deras skepp var långa och smala. De hade ett stort segel och många åror.",
+            "Med skeppen kunde vikingarna segla över havet. De kunde också åka på floder, långt in i andra länder."
+          ],
+          "summaryEn": "Vikings were skilled boat builders. Their long, narrow ships had a big sail and many oars, and could travel both at sea and on rivers."
+        },
+        {
+          "id": "p06",
+          "layout": "map",
+          "kind": "history",
+          "image": {
+            "src": "images/p06.svg",
+            "alt": "A map showing Viking trade routes from Sweden across the Baltic Sea and along rivers to Miklagård",
+            "aspect": 1.1,
+            "caption": { "sv": "Vikingarnas vägar österut", "en": "Viking routes to the east" }
+          },
+          "paragraphs": [
+            "Många vikingar från Sverige reste österut. De åkte över Östersjön och sedan på floder genom det som idag är Ryssland och Ukraina. Några kom ända till Miklagård. Idag heter staden Istanbul.",
+            "Vikingarna sålde pälsar och järn. De köpte silver, tyg och kryddor. Tyvärr handlade de också med slavar.",
+            "En viktig handelsstad var Birka. Den låg på en ö i Mälaren."
+          ],
+          "summaryEn": "Many Swedish Vikings travelled east over the Baltic and along rivers, some as far as Constantinople (Miklagård). They traded furs, iron, silver and also slaves. Birka was an important trading town."
+        },
+        {
+          "id": "p07",
+          "layout": "portrait",
+          "kind": "history",
+          "image": { "src": "images/p07.svg", "alt": "A tall runestone with a carved serpent and runes, standing in a green meadow", "aspect": 1 },
+          "paragraphs": [
+            "Vikingarna trodde på många gudar, till exempel Oden, Tor och Freja.",
+            "De skrev med runor. Ibland ristade de runor på stora stenar för att minnas en person. I Sverige finns ungefär 2 500 runstenar. Det är fler än i något annat land.",
+            "Runt år 1000 blev kungen Olof Skötkonung kristen. Långsamt blev hela landet kristet."
+          ],
+          "summaryEn": "Vikings believed in many gods, like Odin, Thor and Freya. They carved runes on stones; Sweden has about 2,500 runestones. Around the year 1000, King Olof Skötkonung became Christian."
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": { "sv": "Medeltiden och kungarna", "en": "The Middle Ages and the kings" },
+      "pages": [
+        {
+          "id": "p08",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p08.svg", "alt": "A medieval town with a stone wall, a church tower and small houses", "aspect": 1.4 },
+          "heading": "Medeltiden",
+          "paragraphs": [
+            "Efter vikingatiden kom medeltiden. Man byggde kyrkor av sten, och städerna växte. Stockholm nämns för första gången år 1252.",
+            "Många tyska köpmän bodde i svenska städer, till exempel i Visby på Gotland. Visby har fortfarande en lång mur från medeltiden.",
+            "År 1350 kom en svår sjukdom, digerdöden. Kanske dog en tredjedel av alla människor i landet."
+          ],
+          "summaryEn": "In the Middle Ages people built stone churches and towns grew. Stockholm is first mentioned in 1252. German merchants lived in towns like Visby. In 1350 the Black Death killed perhaps a third of the population."
+        },
+        {
+          "id": "p09",
+          "layout": "inset",
+          "kind": "history",
+          "image": { "src": "images/p09.svg", "alt": "Three crowns on a blue banner, symbolising three kingdoms", "aspect": 1.2 },
+          "heading": "Kalmarunionen",
+          "paragraphs": [
+            "År 1397 fick Danmark, Norge och Sverige samma kung. Det kallas Kalmarunionen. Drottning Margareta från Danmark var den mäktigaste personen i unionen.",
+            "Men många svenskar var inte nöjda. De ville bestämma själva.",
+            "År 1520 lät den danske kungen Kristian II döda många svenska adelsmän i Stockholm. Det kallas Stockholms blodbad."
+          ],
+          "summaryEn": "In 1397 Denmark, Norway and Sweden got the same king: the Kalmar Union, led in practice by Queen Margaret. Many Swedes were unhappy. In 1520 the Danish king Christian II had many Swedish nobles killed – the Stockholm Bloodbath."
+        },
+        {
+          "id": "p10",
+          "layout": "portrait",
+          "kind": "history",
+          "image": { "src": "images/p10.svg", "alt": "Portrait of King Gustav Vasa with a long beard, a crown and a dark coat", "aspect": 1 },
+          "heading": "Gustav Vasa",
+          "paragraphs": [
+            "En ung adelsman, Gustav Eriksson Vasa, flydde från danskarna. Han reste till Dalarna och bad bönderna om hjälp. Till slut kämpade de tillsammans med honom.",
+            "Den 6 juni 1523 blev Gustav Vasa kung av Sverige. Därför är den 6 juni Sveriges nationaldag.",
+            "Gustav Vasa gjorde också kyrkan protestantisk. År 1541 kom den första hela Bibeln på svenska."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Skidloppet Vasaloppet, från Sälen till Mora, minns Gustav Vasas flykt.",
+              "en": "The Vasaloppet ski race (90 km, Sälen to Mora) commemorates the story of Gustav Vasa's escape."
+            }
+          },
+          "summaryEn": "Gustav Vasa fled from the Danes and got help from farmers in Dalarna. On 6 June 1523 he became king – that is why 6 June is Sweden's National Day. He made the church Protestant; the first full Swedish Bible came in 1541."
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": { "sv": "Stormaktstiden", "en": "The Swedish Empire" },
+      "pages": [
+        {
+          "id": "p11",
+          "layout": "map",
+          "kind": "history",
+          "image": {
+            "src": "images/p11.svg",
+            "alt": "A map of the Baltic Sea region showing the Swedish Empire in the 1600s",
+            "aspect": 1.1,
+            "caption": { "sv": "Sverige som stormakt, cirka 1660", "en": "Sweden as a great power, around 1660" }
+          },
+          "paragraphs": [
+            "På 1600-talet blev Sverige en stormakt. Landet var mycket större än idag. Sverige styrde över Finland, Estland och delar av Tyskland.",
+            "Kung Gustav II Adolf vann många krig. Men år 1632 dog han i ett slag i Tyskland. Hans dotter Kristina blev drottning. Hon var inte ens sex år gammal."
+          ],
+          "summaryEn": "In the 1600s Sweden became a great power, ruling Finland, Estonia and parts of Germany. King Gustav II Adolf died in battle in 1632, and his daughter Kristina became queen before she was even six years old."
+        },
+        {
+          "id": "p12",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p12.svg", "alt": "The warship Vasa with tall masts and golden decorations, leaning in the harbour", "aspect": 1.33 },
+          "heading": "Skeppet Vasa",
+          "paragraphs": [
+            "År 1628 var ett nytt krigsskepp klart i Stockholm. Det hette Vasa och var stort och vackert.",
+            "Men på sin första resa började skeppet luta. Vatten kom in, och Vasa sjönk efter bara 1 300 meter.",
+            "Skeppet låg på botten i 333 år. År 1961 tog man upp det. Idag kan du se Vasa på Vasamuseet i Stockholm."
+          ],
+          "summaryEn": "In 1628 the warship Vasa sank in Stockholm after only 1,300 metres on its first voyage. It was raised in 1961 after 333 years and is now in the Vasa Museum."
+        },
+        {
+          "id": "p13",
+          "layout": "timeline",
+          "kind": "history",
+          "heading": "Från stormakt till litet land",
+          "timeline": [
+            { "when": "1611", "label": "Gustav II Adolf blir kung" },
+            { "when": "1628", "label": "Skeppet Vasa sjunker" },
+            { "when": "1632", "label": "Kungen dör i Tyskland" },
+            { "when": "1718", "label": "Karl XII dör i Norge" },
+            { "when": "1809", "label": "Sverige förlorar Finland" }
+          ],
+          "paragraphs": [
+            "Kung Karl XII förlorade ett stort krig mot Ryssland och flera andra länder. Efter kriget var stormaktstiden slut. År 1809 förlorade Sverige också Finland.",
+            "Sedan 1814 har Sverige inte varit i krig."
+          ],
+          "summaryEn": "King Karl XII lost a big war against Russia, ending the age of empire. In 1809 Sweden also lost Finland. Sweden has not been at war since 1814."
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": { "sv": "Det moderna Sverige", "en": "Modern Sweden" },
+      "pages": [
+        {
+          "id": "p14",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p14.svg", "alt": "A family with suitcases on a harbour, looking at a steamship", "aspect": 1.4 },
+          "heading": "Resan till Amerika",
+          "paragraphs": [
+            "På 1800-talet var många svenskar fattiga. Det fanns inte mat och arbete till alla.",
+            "Mellan 1850 och 1930 reste ungefär 1,3 miljoner svenskar till Amerika. De ville ha ett bättre liv.",
+            "– Min morfars bror reste också, säger morfar. Han fick aldrig se Sverige igen."
+          ],
+          "summaryEn": "In the 1800s many Swedes were poor. Between 1850 and 1930 about 1.3 million emigrated to America. Grandpa's own grandfather's brother was one of them (fiction)."
+        },
+        {
+          "id": "p15",
+          "layout": "inset",
+          "kind": "history",
+          "image": { "src": "images/p15.svg", "alt": "A red-brick factory with chimneys next to a railway with a steam train", "aspect": 1.3 },
+          "heading": "Fabriker och järnvägar",
+          "paragraphs": [
+            "Sedan kom industrin. Man byggde fabriker och långa järnvägar. Sverige sålde trä, järn och papper till andra länder.",
+            "Många människor flyttade från landet till städerna. Där fanns det jobb.",
+            "Svenska uppfinningar blev kända i hela världen. Alfred Nobel uppfann dynamiten. Idag får forskare och författare Nobelpriset."
+          ],
+          "summaryEn": "Industrialisation came: factories, railways and exports of wood, iron and paper. People moved to the cities for work. Alfred Nobel invented dynamite; today the Nobel Prize is named after him."
+        },
+        {
+          "id": "p16",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p16.svg", "alt": "People of all ages standing in line to vote, holding ballot papers", "aspect": 1.4 },
+          "heading": "Ett land för alla",
+          "paragraphs": [
+            "Under 1900-talet blev Sverige en demokrati. År 1921 fick kvinnor rösta i valet för första gången.",
+            "Politikerna ville bygga ett tryggt land för alla. De kallade det folkhemmet. Alla barn skulle gå i skolan, och alla skulle kunna gå till doktorn."
+          ],
+          "summaryEn": "In the 1900s Sweden became a democracy; women first voted in an election in 1921. Politicians built the 'folkhemmet' (the people's home): school and healthcare for everyone."
+        },
+        {
+          "id": "p17",
+          "layout": "hero",
+          "kind": "history",
+          "image": { "src": "images/p17.svg", "alt": "Modern Stockholm by the water with the City Hall tower and people on bicycles", "aspect": 1.4 },
+          "heading": "Sverige idag",
+          "paragraphs": [
+            "Idag bor drygt tio miljoner människor i Sverige. Många har sina rötter i andra länder.",
+            "Sverige har en kung, Carl XVI Gustaf, men det är riksdagen som bestämmer. Sverige blev medlem i EU år 1995 och i Nato år 2024."
+          ],
+          "summaryEn": "Today just over ten million people live in Sweden, many with roots in other countries. Sweden has a king, but Parliament (riksdagen) makes the decisions. Sweden joined the EU in 1995 and NATO in 2024."
+        },
+        {
+          "id": "p18",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p18.svg", "alt": "Ella and her grandfather walking home along the water at sunset", "aspect": 1.33 },
+          "paragraphs": [
+            "Ella och morfar går ut från museet. Solen går ner över vattnet.",
+            "– Vilken lång resa, säger Ella. Från is och vikingar till idag!",
+            "– Ja, säger morfar. Och historien är inte slut. Den fortsätter varje dag.",
+            "Ella ler. Hon vill komma tillbaka snart."
+          ],
+          "summaryEn": "Ella and her grandfather leave the museum at sunset. 'And history isn't over,' he says. 'It continues every day.'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": "vocabulary.json",
+  "quiz": "quiz.json",
+  "exercises": ["exercises/grammar.json"]
+}

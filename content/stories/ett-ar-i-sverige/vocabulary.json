@@ -1,0 +1,238 @@
+{
+  "formatVersion": 1,
+  "entries": [
+    {
+      "lemma": "mörker",
+      "pos": "noun",
+      "gender": "ett",
+      "en": "darkness",
+      "forms": {
+        "indefSg": "mörker",
+        "defSg": "mörkret"
+      },
+      "key": true,
+      "example": {
+        "sv": "Mörkret kommer tidigt på vintern.",
+        "en": "Darkness comes early in winter."
+      }
+    },
+    {
+      "lemma": "norrsken",
+      "pos": "noun",
+      "gender": "ett",
+      "en": "northern lights",
+      "forms": {
+        "indefSg": "norrsken",
+        "defSg": "norrskenet",
+        "indefPl": "norrsken",
+        "defPl": "norrskenen"
+      },
+      "key": true,
+      "note": "Norr (north) + sken (glow)."
+    },
+    {
+      "lemma": "brodd",
+      "pos": "noun",
+      "gender": "en",
+      "en": "ice grip",
+      "forms": {
+        "indefSg": "brodd",
+        "defSg": "brodden",
+        "indefPl": "broddar",
+        "defPl": "broddarna"
+      },
+      "key": true,
+      "note": "Spikes for your shoes so you don't slip on ice."
+    },
+    {
+      "lemma": "ispik",
+      "pos": "noun",
+      "gender": "en",
+      "en": "ice claw",
+      "forms": {
+        "indefSg": "ispik",
+        "defSg": "ispiken",
+        "indefPl": "ispikar",
+        "defPl": "ispikarna"
+      },
+      "key": true,
+      "note": "A safety tool for walking on ice."
+    },
+    {
+      "lemma": "semla",
+      "pos": "noun",
+      "gender": "en",
+      "en": "semla (cream bun)",
+      "forms": {
+        "indefSg": "semla",
+        "defSg": "semlan",
+        "indefPl": "semlor",
+        "defPl": "semlorna"
+      },
+      "key": true,
+      "note": "Eaten on fettisdagen (Shrove Tuesday)."
+    },
+    {
+      "lemma": "midnattssol",
+      "pos": "noun",
+      "gender": "en",
+      "en": "midnight sun",
+      "forms": {
+        "indefSg": "midnattssol",
+        "defSg": "midnattssolen"
+      },
+      "key": true,
+      "note": "Midnatt (midnight) + s + sol (sun)."
+    },
+    {
+      "lemma": "kräftskiva",
+      "pos": "noun",
+      "gender": "en",
+      "en": "crayfish party",
+      "forms": {
+        "indefSg": "kräftskiva",
+        "defSg": "kräftskivan",
+        "indefPl": "kräftskivor",
+        "defPl": "kräftskivorna"
+      },
+      "key": true,
+      "note": "In August: crayfish, paper hats and songs."
+    },
+    {
+      "lemma": "personnummer",
+      "pos": "noun",
+      "gender": "ett",
+      "en": "personal identity number",
+      "forms": {
+        "indefSg": "personnummer",
+        "defSg": "personnumret",
+        "indefPl": "personnummer",
+        "defPl": "personnumren"
+      },
+      "key": true
+    },
+    {
+      "lemma": "vårdcentral",
+      "pos": "noun",
+      "gender": "en",
+      "en": "health centre",
+      "forms": {
+        "indefSg": "vårdcentral",
+        "defSg": "vårdcentralen",
+        "indefPl": "vårdcentraler",
+        "defPl": "vårdcentralerna"
+      },
+      "key": true,
+      "note": "Vård (care) + central (centre)."
+    },
+    {
+      "lemma": "ordföljd",
+      "pos": "noun",
+      "gender": "en",
+      "en": "word order",
+      "forms": {
+        "indefSg": "ordföljd",
+        "defSg": "ordföljden"
+      },
+      "key": true,
+      "note": "Ord (word) + följd (sequence)."
+    },
+    {
+      "lemma": "allemansrätt",
+      "pos": "noun",
+      "gender": "en",
+      "en": "right of public access",
+      "forms": {
+        "indefSg": "allemansrätt",
+        "defSg": "allemansrätten"
+      },
+      "key": true
+    },
+    {
+      "lemma": "längta",
+      "pos": "verb",
+      "en": "to long for",
+      "forms": {
+        "infinitive": "längta",
+        "present": "längtar",
+        "past": "längtade",
+        "supine": "längtat"
+      },
+      "key": true,
+      "note": "Längta efter något = long for something.",
+      "example": {
+        "sv": "Jag längtar efter sommaren.",
+        "en": "I long for the summer."
+      }
+    },
+    {
+      "lemma": "våga",
+      "pos": "verb",
+      "en": "to dare",
+      "forms": {
+        "infinitive": "våga",
+        "present": "vågar",
+        "past": "vågade",
+        "supine": "vågat"
+      },
+      "key": true,
+      "example": {
+        "sv": "Våga prata svenska!",
+        "en": "Dare to speak Swedish!"
+      }
+    },
+    {
+      "lemma": "halka",
+      "pos": "verb",
+      "en": "to slip",
+      "forms": {
+        "infinitive": "halka",
+        "present": "halkar",
+        "past": "halkade",
+        "supine": "halkat"
+      },
+      "key": true,
+      "enPast": "slipped",
+      "enParticiple": "slipped"
+    },
+    {
+      "lemma": "förberedd",
+      "pos": "adjective",
+      "en": "prepared",
+      "forms": {
+        "common": "förberedd",
+        "neuter": "förberett",
+        "plural": "förberedda"
+      },
+      "key": true,
+      "example": {
+        "sv": "Nu är jag förberedd.",
+        "en": "Now I am prepared."
+      }
+    },
+    {
+      "lemma": "tålmodig",
+      "pos": "adjective",
+      "en": "patient",
+      "forms": {
+        "common": "tålmodig",
+        "neuter": "tålmodigt",
+        "plural": "tålmodiga"
+      },
+      "key": true
+    },
+    {
+      "lemma": "mysig",
+      "pos": "adjective",
+      "en": "cosy",
+      "forms": {
+        "common": "mysig",
+        "neuter": "mysigt",
+        "plural": "mysiga",
+        "comparative": "mysigare",
+        "superlative": "mysigast"
+      },
+      "key": true
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "formatVersion": 1,
+  "questions": [
+    {
+      "id": "q01", "type": "choice", "category": "comprehension", "difficulty": 1,
+      "prompt": "Varifrån kommer Daniel?",
+      "options": ["Från Spanien", "Från Brasilien", "Från Thailand"],
+      "answer": 1,
+      "explanation": "Daniel comes from Salvador in Brazil, where it is warm almost all year round.",
+      "swedish": "Daniel kommer från Salvador i Brasilien.",
+      "pageId": "p01"
+    },
+    {
+      "id": "q02", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Varför säger Elin att Daniel ska ta D-vitamin?",
+      "options": ["Eftersom det finns lite solljus på vintern", "Eftersom han äter för mycket socker", "Eftersom han jobbar på ett sjukhus"],
+      "answer": 0,
+      "explanation": "In northern Sweden the winter days are very short, so people get little sunlight – and the body needs sunlight to make vitamin D.",
+      "swedish": "I december går solen upp efter klockan tio och ner redan före klockan två.",
+      "pageId": "p02"
+    },
+    {
+      "id": "q03", "type": "choice", "category": "vocabulary", "difficulty": 2,
+      "prompt": "What are “broddar”?",
+      "options": ["thick gloves", "ice grips for shoes", "winter boots"],
+      "answer": 1,
+      "explanation": "Broddar are spikes or grips you attach to your shoes so you don't slip on ice.",
+      "swedish": "Och köp broddar till skorna, annars halkar du på isen.",
+      "pageId": "p03"
+    },
+    {
+      "id": "q04", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Varför har Elin ispikar runt halsen?",
+      "options": ["För att de är vackra", "För att kunna dra sig upp om isen brister", "För att fiska under isen"],
+      "answer": 1,
+      "explanation": "Ice claws (ispikar) are a safety tool. If you fall through the ice, you stick them into the ice and pull yourself out.",
+      "swedish": "Om isen skulle brista kan man dra sig upp med dem.",
+      "pageId": "p04"
+    },
+    {
+      "id": "q05", "type": "truefalse", "category": "culture", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "Man äter semlor på fettisdagen.",
+      "answer": true,
+      "explanation": "True. Fettisdagen (Shrove Tuesday) in February or March is the traditional day for semlor – cardamom buns with almond paste and whipped cream.",
+      "swedish": "Det är fettisdagen idag. Då äter man semlor.",
+      "pageId": "p05"
+    },
+    {
+      "id": "q06", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad gör man på valborgsmässoafton?",
+      "options": ["Man tänder en stor brasa och sjunger om våren.", "Man dansar runt en midsommarstång.", "Man äter kräftor."],
+      "answer": 0,
+      "explanation": "On 30 April Swedes welcome spring with bonfires and choir songs. In the past, fires were lit to scare away predators before animals went out to graze.",
+      "swedish": "En kör sjunger sånger om våren, och sedan tänds en stor brasa.",
+      "pageId": "p07"
+    },
+    {
+      "id": "q07", "type": "choice", "category": "culture", "difficulty": 1,
+      "prompt": "Vad är SFI?",
+      "options": ["Ett sjukhus i Umeå", "Svenska för invandrare – kurser i svenska för vuxna", "En svensk tv-kanal"],
+      "answer": 1,
+      "explanation": "SFI (Svenska för invandrare) is free Swedish language education for adult immigrants, run by the municipalities.",
+      "swedish": "Två kvällar i veckan läser Daniel svenska på SFI, Svenska för invandrare.",
+      "pageId": "p08"
+    },
+    {
+      "id": "q08", "type": "choice", "category": "comprehension", "difficulty": 2,
+      "prompt": "Vad tycker Daniel är svårast på SFI?",
+      "options": ["Uttalet", "Ordföljden", "Att skriva brev"],
+      "answer": 1,
+      "explanation": "Daniel finds word order hardest – especially the rule that the verb must be in second place (the V2 rule).",
+      "swedish": "– Det svåraste är ordföljden, säger Daniel.",
+      "pageId": "p08"
+    },
+    {
+      "id": "q09", "type": "truefalse", "category": "culture", "difficulty": 2,
+      "prompt": "Sant eller falskt?",
+      "statement": "I Umeå går solen inte ner alls på sommaren.",
+      "answer": false,
+      "explanation": "False. In Umeå the sun sets late and rises again a few hours later. The real midnight sun – when the sun doesn't set at all – is further north, for example in Kiruna.",
+      "swedish": "Längre norrut, i Kiruna, går solen inte ner alls på sommaren.",
+      "pageId": "p09"
+    },
+    {
+      "id": "q10", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Vad är ”Helan går”?",
+      "options": ["En snapsvisa", "En dans", "Ett midsommarbord"],
+      "answer": 0,
+      "explanation": "“Helan går” is the most famous Swedish drinking song (snapsvisa), sung before a toast at midsummer and crayfish parties.",
+      "swedish": "Vid det långa bordet sjunger Elins morbror en snapsvisa, ”Helan går”.",
+      "pageId": "p10"
+    },
+    {
+      "id": "q11", "type": "choice", "category": "vocabulary", "difficulty": 2,
+      "prompt": "What does “myggen” mean?",
+      "options": ["the mosquitoes", "the mountains", "the tents"],
+      "answer": 0,
+      "explanation": "“Mygga” means mosquito; “myggen” is a common form for “the mosquitoes” (plural definite). They are the one thing that disturbs Swedish summer camping!",
+      "swedish": "Det enda som stör är myggen.",
+      "pageId": "p11"
+    },
+    {
+      "id": "q12", "type": "choice", "category": "culture", "difficulty": 1,
+      "prompt": "Vad äter man på en kräftskiva?",
+      "options": ["Semlor", "Kräftor", "Köttbullar"],
+      "answer": 1,
+      "explanation": "A kräftskiva is a crayfish party in August, with paper hats, moon lanterns and songs.",
+      "swedish": "Man äter kräftor med händerna.",
+      "pageId": "p12"
+    },
+    {
+      "id": "q13", "type": "choice", "category": "culture", "difficulty": 2,
+      "prompt": "Varför ringer Daniel 1177?",
+      "options": ["För att boka en restaurang", "För att få råd från en sjuksköterska", "För att ringa polisen"],
+      "answer": 1,
+      "explanation": "1177 is the Swedish healthcare advice line. Nurses answer around the clock and can book you an appointment. (The emergency number is 112.)",
+      "swedish": "Elin säger att han ska ringa 1177 först, där sjuksköterskor ger råd dygnet runt.",
+      "pageId": "p14"
+    },
+    {
+      "id": "q14", "type": "choice", "category": "comprehension", "difficulty": 3,
+      "prompt": "Varför skrämmer mörkret inte Daniel längre?",
+      "options": ["Han har flyttat tillbaka till Brasilien.", "Han är förberedd och förstår hur svenskarna gör det mysigt.", "Han sover hela vintern."],
+      "answer": 1,
+      "explanation": "This needs some interpretation: Daniel has prepared (advent star, warm clothes, friends) and understands that Swedes respond to the darkness by making life cosy.",
+      "swedish": "Han har förstått att det är just därför svenskarna är så bra på att göra det mysigt.",
+      "pageId": "p15"
+    },
+    {
+      "id": "q15", "type": "choice", "category": "comprehension", "difficulty": 3,
+      "prompt": "Vad var det svåraste för Daniel, enligt brevet?",
+      "options": ["Kylan", "Maten", "Att våga prata, även när han gjorde fel"],
+      "answer": 2,
+      "explanation": "Daniel thought the cold would be hardest, but the hardest thing was daring to speak Swedish while making mistakes – something every learner recognises!",
+      "wrong": { "0": "He expected the cold to be the hardest – but the letter says something else was harder." },
+      "swedish": "Men det svåraste var att våga prata, även när jag gjorde fel.",
+      "pageId": "p16"
+    }
+  ]
+}

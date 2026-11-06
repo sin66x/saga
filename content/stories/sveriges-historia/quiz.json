@@ -1,0 +1,142 @@
+{
+  "formatVersion": 1,
+  "questions": [
+    {
+      "id": "q01", "type": "choice", "category": "comprehension", "difficulty": 1,
+      "prompt": "Var är Ella och morfar?",
+      "options": ["På Historiska museet i Stockholm", "På Vasamuseet i Stockholm", "I en skola i Uppsala"],
+      "answer": 0,
+      "explanation": "The story begins with Ella and her grandfather going to a big museum in Stockholm called Historiska museet (the Swedish History Museum).",
+      "swedish": "De går till ett stort museum. Det heter Historiska museet.",
+      "pageId": "p01"
+    },
+    {
+      "id": "q02", "type": "choice", "category": "history", "difficulty": 1,
+      "prompt": "Vad gjorde de första människorna i Sverige?",
+      "options": ["De byggde fabriker och järnvägar.", "De jagade ren och fiskade.", "De åkte skidor i Vasaloppet."],
+      "answer": 1,
+      "explanation": "The first people came after the ice melted, more than 12,000 years ago. They lived by hunting reindeer and fishing.",
+      "swedish": "De jagade ren och fiskade i sjöar och hav.",
+      "pageId": "p02"
+    },
+    {
+      "id": "q03", "type": "choice", "category": "vocabulary", "difficulty": 1,
+      "prompt": "What does “hällristningar” mean?",
+      "options": ["rock carvings", "runestones", "Viking ships"],
+      "answer": 0,
+      "explanation": "“Häll” is a flat rock and “ristning” is a carving. Hällristningar are Bronze Age pictures carved into rock, for example in Tanum.",
+      "wrong": { "1": "Runestones are “runstenar” – stones with runic writing from the Viking Age." },
+      "swedish": "På stora stenar ritade de båtar, djur och människor. Bilderna heter hällristningar.",
+      "pageId": "p03"
+    },
+    {
+      "id": "q04", "type": "choice", "category": "comprehension", "difficulty": 1,
+      "prompt": "Var bodde vikingarna?",
+      "options": ["I Sverige och andra delar av Skandinavien.", "I Afrika.", "I Australien."],
+      "answer": 0,
+      "explanation": "The Vikings lived in Scandinavia – today's Sweden, Norway and Denmark. Most were farmers living in longhouses.",
+      "swedish": "De flesta vikingar var bönder. De bodde i långa hus av trä.",
+      "pageId": "p04"
+    },
+    {
+      "id": "q05", "type": "truefalse", "category": "history", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "Vikingarna hade horn på hjälmarna.",
+      "answer": false,
+      "explanation": "False. Horned Viking helmets are a myth that became popular in the 1800s, for example in opera costumes. Real Viking helmets had no horns.",
+      "swedish": "Vikingarna hade inte horn på hjälmarna. Det är en myt.",
+      "pageId": "p04"
+    },
+    {
+      "id": "q06", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Vad kallade vikingarna staden som idag heter Istanbul?",
+      "options": ["Birka", "Miklagård", "Visby"],
+      "answer": 1,
+      "explanation": "Vikings called Constantinople (today's Istanbul) “Miklagård” – the great city. Birka was a Viking trading town in Lake Mälaren, and Visby is a medieval town on Gotland.",
+      "swedish": "Några kom ända till Miklagård. Idag heter staden Istanbul.",
+      "pageId": "p06"
+    },
+    {
+      "id": "q07", "type": "truefalse", "category": "history", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "Det finns fler runstenar i Sverige än i något annat land.",
+      "answer": true,
+      "explanation": "True. Sweden has about 2,500 runestones – more than any other country.",
+      "swedish": "I Sverige finns ungefär 2 500 runstenar. Det är fler än i något annat land.",
+      "pageId": "p07"
+    },
+    {
+      "id": "q08", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Vem var Gustav Vasa?",
+      "options": ["En vikingakung som reste till Miklagård", "En kung som tog Sverige ut ur Kalmarunionen", "En uppfinnare som fick Nobelpriset"],
+      "answer": 1,
+      "explanation": "Gustav Vasa led the uprising against the Danish king, which ended Sweden's part in the Kalmar Union. He became king in 1523 and is often called the father of modern Sweden.",
+      "swedish": "Den 6 juni 1523 blev Gustav Vasa kung av Sverige.",
+      "pageId": "p10"
+    },
+    {
+      "id": "q09", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Varför är den 6 juni Sveriges nationaldag?",
+      "options": ["Gustav Vasa blev kung den dagen år 1523.", "Skeppet Vasa sjönk den dagen.", "Sverige blev medlem i EU den dagen."],
+      "answer": 0,
+      "explanation": "Gustav Vasa was elected king on 6 June 1523. (The date also marks a new constitution in 1809.) It became the official National Day and a public holiday.",
+      "swedish": "Därför är den 6 juni Sveriges nationaldag.",
+      "pageId": "p10"
+    },
+    {
+      "id": "q10", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Vad hände med skeppet Vasa år 1628?",
+      "options": ["Det vann ett stort krig.", "Det seglade till Amerika.", "Det sjönk på sin första resa."],
+      "answer": 2,
+      "explanation": "The warship Vasa leaned, took in water and sank after only about 1,300 metres on its first voyage. It was raised in 1961.",
+      "swedish": "Vatten kom in, och Vasa sjönk efter bara 1 300 meter.",
+      "pageId": "p12"
+    },
+    {
+      "id": "q11", "type": "choice", "category": "vocabulary", "difficulty": 2,
+      "prompt": "What does “stormakt” mean?",
+      "options": ["a big storm", "a great power", "a strong king"],
+      "answer": 1,
+      "explanation": "“Stor” means big and “makt” means power. A stormakt is a great power – a country with a lot of influence, like Sweden in the 1600s.",
+      "wrong": { "0": "A storm is “en storm”. In “stormakt” the parts are stor + makt." },
+      "swedish": "På 1600-talet blev Sverige en stormakt.",
+      "pageId": "p11"
+    },
+    {
+      "id": "q12", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Varför reste många svenskar till Amerika?",
+      "options": ["De var fattiga och ville ha ett bättre liv.", "De ville bli vikingar.", "Kungen sa att de måste resa."],
+      "answer": 0,
+      "explanation": "In the 1800s many Swedes were poor and there was not enough food or work. About 1.3 million emigrated to America between 1850 and 1930.",
+      "swedish": "De ville ha ett bättre liv.",
+      "pageId": "p14"
+    },
+    {
+      "id": "q13", "type": "truefalse", "category": "history", "difficulty": 1,
+      "prompt": "Sant eller falskt?",
+      "statement": "Kvinnor fick rösta i valet för första gången år 1921.",
+      "answer": true,
+      "explanation": "True. Women in Sweden voted in a national election for the first time in 1921.",
+      "swedish": "År 1921 fick kvinnor rösta i valet för första gången.",
+      "pageId": "p16"
+    },
+    {
+      "id": "q14", "type": "choice", "category": "history", "difficulty": 2,
+      "prompt": "Vem bestämmer i Sverige idag?",
+      "options": ["Kungen", "Riksdagen", "Kyrkan"],
+      "answer": 1,
+      "explanation": "Sweden is a constitutional monarchy. King Carl XVI Gustaf is head of state, but the parliament (riksdagen) makes the political decisions.",
+      "swedish": "Sverige har en kung, men det är riksdagen som bestämmer.",
+      "pageId": "p17"
+    },
+    {
+      "id": "q15", "type": "choice", "category": "comprehension", "difficulty": 3,
+      "prompt": "Vad menar morfar när han säger att historien inte är slut?",
+      "options": ["Att museet är öppet länge till.", "Att det som händer idag också blir historia.", "Att de måste läsa en bok till."],
+      "answer": 1,
+      "explanation": "This requires a little interpretation: grandpa means that history continues every day – what happens now will be history in the future.",
+      "swedish": "Och historien är inte slut. Den fortsätter varje dag.",
+      "pageId": "p18"
+    }
+  ]
+}

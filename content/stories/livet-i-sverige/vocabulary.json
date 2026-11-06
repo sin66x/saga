@@ -1,0 +1,258 @@
+{
+  "formatVersion": 1,
+  "entries": [
+    {
+      "lemma": "fika",
+      "pos": "noun",
+      "gender": "en",
+      "en": "coffee break",
+      "forms": {
+        "indefSg": "fika",
+        "defSg": "fikan"
+      },
+      "key": true,
+      "note": "Fika is both a noun (en fika) and a verb (att fika).",
+      "example": {
+        "sv": "Ska vi ta en fika?",
+        "en": "Shall we have a coffee break?"
+      }
+    },
+    {
+      "lemma": "granne",
+      "pos": "noun",
+      "gender": "en",
+      "en": "neighbour",
+      "forms": {
+        "indefSg": "granne",
+        "defSg": "grannen",
+        "indefPl": "grannar",
+        "defPl": "grannarna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Karin är Nadias granne.",
+        "en": "Karin is Nadia's neighbour."
+      }
+    },
+    {
+      "lemma": "högtid",
+      "pos": "noun",
+      "gender": "en",
+      "en": "holiday, festive occasion",
+      "forms": {
+        "indefSg": "högtid",
+        "defSg": "högtiden",
+        "indefPl": "högtider",
+        "defPl": "högtiderna"
+      },
+      "key": true,
+      "note": "False friend: not 'high tide'!",
+      "example": {
+        "sv": "Jul är en stor högtid.",
+        "en": "Christmas is a big holiday."
+      }
+    },
+    {
+      "lemma": "tradition",
+      "pos": "noun",
+      "gender": "en",
+      "en": "tradition",
+      "forms": {
+        "indefSg": "tradition",
+        "defSg": "traditionen",
+        "indefPl": "traditioner",
+        "defPl": "traditionerna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Lucia är en vacker tradition.",
+        "en": "Lucia is a beautiful tradition."
+      }
+    },
+    {
+      "lemma": "julafton",
+      "pos": "noun",
+      "gender": "en",
+      "en": "Christmas Eve",
+      "forms": {
+        "indefSg": "julafton",
+        "defSg": "julaftonen",
+        "indefPl": "julaftnar",
+        "defPl": "julaftnarna"
+      },
+      "key": true,
+      "note": "24 December, the main Christmas day in Sweden."
+    },
+    {
+      "lemma": "midsommarstång",
+      "pos": "noun",
+      "gender": "en",
+      "en": "maypole",
+      "forms": {
+        "indefSg": "midsommarstång",
+        "defSg": "midsommarstången",
+        "indefPl": "midsommarstänger",
+        "defPl": "midsommarstängerna"
+      },
+      "key": true,
+      "note": "Midsommar (midsummer) + stång (pole)."
+    },
+    {
+      "lemma": "allemansrätt",
+      "pos": "noun",
+      "gender": "en",
+      "en": "right of public access",
+      "forms": {
+        "indefSg": "allemansrätt",
+        "defSg": "allemansrätten"
+      },
+      "key": true,
+      "note": "Alle mans rätt = every person's right. You may walk, pick berries and camp in nature – but don't disturb, don't destroy."
+    },
+    {
+      "lemma": "jämställdhet",
+      "pos": "noun",
+      "gender": "en",
+      "en": "(gender) equality",
+      "forms": {
+        "indefSg": "jämställdhet",
+        "defSg": "jämställdheten"
+      },
+      "key": true,
+      "note": "Words ending in -het are en-words."
+    },
+    {
+      "lemma": "semester",
+      "pos": "noun",
+      "gender": "en",
+      "en": "holiday, vacation",
+      "forms": {
+        "indefSg": "semester",
+        "defSg": "semestern",
+        "indefPl": "semestrar",
+        "defPl": "semestrarna"
+      },
+      "key": true,
+      "note": "Everyone in Sweden has the right to at least five weeks of semester."
+    },
+    {
+      "lemma": "nummerlapp",
+      "pos": "noun",
+      "gender": "en",
+      "en": "queue ticket",
+      "forms": {
+        "indefSg": "nummerlapp",
+        "defSg": "nummerlappen",
+        "indefPl": "nummerlappar",
+        "defPl": "nummerlapparna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Ta en nummerlapp!",
+        "en": "Take a queue ticket!"
+      }
+    },
+    {
+      "lemma": "pant",
+      "pos": "noun",
+      "gender": "en",
+      "en": "deposit (on cans and bottles)",
+      "forms": {
+        "indefSg": "pant",
+        "defSg": "panten"
+      },
+      "key": true
+    },
+    {
+      "lemma": "fika",
+      "pos": "verb",
+      "en": "to have fika (a coffee break)",
+      "forms": {
+        "infinitive": "fika",
+        "present": "fikar",
+        "past": "fikade",
+        "supine": "fikat"
+      },
+      "key": true,
+      "example": {
+        "sv": "Nu fikar vi!",
+        "en": "Now let's have fika!"
+      }
+    },
+    {
+      "lemma": "fira",
+      "pos": "verb",
+      "en": "to celebrate",
+      "forms": {
+        "infinitive": "fira",
+        "present": "firar",
+        "past": "firade",
+        "supine": "firat"
+      },
+      "key": true,
+      "example": {
+        "sv": "Vi firar jul på julafton.",
+        "en": "We celebrate Christmas on Christmas Eve."
+      }
+    },
+    {
+      "lemma": "bjuda",
+      "pos": "verb",
+      "en": "to invite, to treat",
+      "forms": {
+        "infinitive": "bjuda",
+        "present": "bjuder",
+        "past": "bjöd",
+        "supine": "bjudit"
+      },
+      "key": true,
+      "note": "Bjuda på = to treat someone to (food, drink).",
+      "example": {
+        "sv": "Karin bjuder på middag.",
+        "en": "Karin treats (us) to dinner."
+      },
+      "enPast": "invited",
+      "enParticiple": "invited"
+    },
+    {
+      "lemma": "lagom",
+      "pos": "adjective",
+      "en": "just right",
+      "forms": {
+        "common": "lagom",
+        "neuter": "lagom",
+        "plural": "lagom"
+      },
+      "key": true,
+      "note": "Not too much, not too little."
+    },
+    {
+      "lemma": "punktlig",
+      "pos": "adjective",
+      "en": "punctual",
+      "forms": {
+        "common": "punktlig",
+        "neuter": "punktligt",
+        "plural": "punktliga"
+      },
+      "key": true
+    },
+    {
+      "lemma": "mysig",
+      "pos": "adjective",
+      "en": "cosy",
+      "forms": {
+        "common": "mysig",
+        "neuter": "mysigt",
+        "plural": "mysiga",
+        "comparative": "mysigare",
+        "superlative": "mysigast"
+      },
+      "key": true,
+      "example": {
+        "sv": "Det är mysigt med levande ljus.",
+        "en": "It's cosy with candles."
+      }
+    }
+  ]
+}

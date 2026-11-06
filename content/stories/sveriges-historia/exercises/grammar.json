@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "id": "sveriges-historia-preteritum",
+  "title": { "sv": "Preteritum i historien", "en": "Past tense in the history story" },
+  "grammarTopic": "verbs-past",
+  "explanation": "History is told in the past tense (preteritum). All sentences here come from the story.",
+  "exercises": [
+    {
+      "id": "e01", "type": "fill", "difficulty": 1,
+      "prompt": "Write the past tense of “jaga” (to hunt).",
+      "sentence": "De första människorna ___ ren och fiskade.",
+      "answers": ["jagade"],
+      "translation": "The first people hunted reindeer and fished.",
+      "explanation": "“Jaga” is a group 1 verb (ending in -a). Group 1 verbs add -de in the past tense: jaga → jagade."
+    },
+    {
+      "id": "e02", "type": "choice", "difficulty": 1,
+      "prompt": "Choose the correct past tense of “bo” (to live).",
+      "sentence": "De flesta vikingar ___ i långa hus av trä.",
+      "options": ["bodde", "bodade", "bott"],
+      "answer": 0,
+      "explanation": "“Bo” is a short verb (group 3). Short verbs add -dde in the past: bo → bodde, tro → trodde.",
+      "wrong": { "1": "Only group 1 verbs (ending in -a) take -ade.", "2": "“Bott” is the supine, used with har: “de har bott”." }
+    },
+    {
+      "id": "e03", "type": "choice", "difficulty": 2,
+      "prompt": "“Bli” is irregular. Choose the past tense.",
+      "sentence": "Den 6 juni 1523 ___ Gustav Vasa kung av Sverige.",
+      "options": ["blev", "blidde", "blivit"],
+      "answer": 0,
+      "explanation": "“Bli” (to become) is a strong verb: bli – blir – blev – blivit. Strong verbs change the vowel instead of adding an ending."
+    },
+    {
+      "id": "e04", "type": "fill", "difficulty": 2,
+      "prompt": "Write the past tense of “sjunka” (to sink).",
+      "sentence": "Vatten kom in, och Vasa ___ efter bara 1 300 meter.",
+      "answers": ["sjönk"],
+      "translation": "Water came in, and the Vasa sank after only 1,300 metres.",
+      "explanation": "“Sjunka” is a strong verb: sjunka – sjunker – sjönk – sjunkit. The vowel changes from u to ö."
+    },
+    {
+      "id": "e05", "type": "match", "difficulty": 2,
+      "prompt": "Match the infinitive with its past tense form from the story.",
+      "pairs": [["komma", "kom"], ["dö", "dog"], ["resa", "reste"], ["vinna", "vann"], ["ligga", "låg"]],
+      "explanation": "Kom, dog, vann and låg are strong (irregular) verbs with vowel change. “Resa” is a group 2 verb: the stem res- + -te = reste."
+    },
+    {
+      "id": "e06", "type": "order", "difficulty": 2,
+      "prompt": "Put the words in the right order. Remember: the verb comes second.",
+      "words": ["År", "1397", "fick", "länderna", "samma", "kung"],
+      "end": ".",
+      "translation": "In 1397 the countries got the same king.",
+      "explanation": "When a sentence starts with a time phrase (“År 1397”), the verb (fick) must still be in position 2, and the subject (länderna) comes after it. This is the V2 rule."
+    },
+    {
+      "id": "e07", "type": "correct", "difficulty": 3,
+      "prompt": "This sentence has a mistake. Choose the correct version.",
+      "incorrect": "Vikingarna har seglat till Miklagård för 1 000 år sedan.",
+      "options": [
+        "Vikingarna seglade till Miklagård för 1 000 år sedan.",
+        "Vikingarna seglar till Miklagård för 1 000 år sedan.",
+        "Vikingarna har seglade till Miklagård för 1 000 år sedan."
+      ],
+      "answer": 0,
+      "explanation": "With a specific time in the past (“för 1 000 år sedan”) Swedish uses preteritum, not perfect (har + supinum). Perfect is used when no exact past time is given: “Jag har varit i Stockholm.”"
+    }
+  ]
+}

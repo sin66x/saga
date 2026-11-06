@@ -1,0 +1,71 @@
+{
+  "formatVersion": 1,
+  "id": "ett-ar-i-sverige-ordfoljd",
+  "title": { "sv": "Ordföljd och bisatser", "en": "Word order and subordinate clauses" },
+  "grammarTopic": "sentence-v2",
+  "explanation": "Daniel's hardest topic: word order. Practise the V2 rule and subordinate clauses with sentences from the story.",
+  "exercises": [
+    {
+      "id": "e01", "type": "order", "difficulty": 1,
+      "prompt": "Put the words in order. Start with “I december”.",
+      "words": ["I", "december", "går", "solen", "upp", "sent"],
+      "end": ".",
+      "translation": "In December the sun rises late.",
+      "explanation": "The time phrase “I december” takes position 1, so the verb “går” comes second and the subject “solen” moves after the verb (inversion)."
+    },
+    {
+      "id": "e02", "type": "choice", "difficulty": 2,
+      "prompt": "Choose the correct word order.",
+      "options": [
+        "En morgon allt är vitt.",
+        "En morgon är allt vitt.",
+        "En morgon vitt är allt."
+      ],
+      "answer": 1,
+      "explanation": "“En morgon” is in position 1, so the verb “är” must come second: En morgon är allt vitt. This is the V2 rule.",
+      "wrong": { "0": "In Swedish the verb cannot come third. After “En morgon” the verb must follow directly." }
+    },
+    {
+      "id": "e03", "type": "choice", "difficulty": 2,
+      "prompt": "Where does “inte” go in a subordinate clause?",
+      "sentence": "Daniel berättar att han ___ snö förut.",
+      "options": ["har aldrig sett", "aldrig har sett", "har sett aldrig"],
+      "answer": 1,
+      "explanation": "In a subordinate clause (after “att”), adverbs like inte, aldrig and alltid come BEFORE the verb: att han aldrig har sett. In a main clause it's the other way round: Han har aldrig sett snö."
+    },
+    {
+      "id": "e04", "type": "order", "difficulty": 2,
+      "prompt": "Put the words in order to make a subordinate clause.",
+      "words": ["eftersom", "han", "inte", "har", "några", "vinterkläder"],
+      "explanation": "In a subordinate clause the word order is: conjunction (eftersom) – subject (han) – adverb (inte) – verb (har). The subject always comes right after the conjunction."
+    },
+    {
+      "id": "e05", "type": "choice", "difficulty": 2,
+      "prompt": "A subordinate clause comes first. What comes next?",
+      "sentence": "När Daniel landar i Umeå, ___ redan mörkt.",
+      "options": ["det är", "är det", "det redan är"],
+      "answer": 1,
+      "explanation": "When a sentence starts with a subordinate clause (“När Daniel landar i Umeå”), the whole clause counts as position 1. So the verb “är” comes next, followed by the subject: är det."
+    },
+    {
+      "id": "e06", "type": "correct", "difficulty": 3,
+      "prompt": "This sentence has a word-order mistake. Choose the correct version.",
+      "incorrect": "Varje kväll de lagar mat över elden.",
+      "options": [
+        "Varje kväll lagar de mat över elden.",
+        "De varje kväll lagar mat över elden.",
+        "Varje kväll lagar mat de över elden."
+      ],
+      "answer": 0,
+      "explanation": "“Varje kväll” is in position 1, so the verb “lagar” must come second, then the subject “de”. Alternatively: “De lagar mat över elden varje kväll.”"
+    },
+    {
+      "id": "e07", "type": "fill", "difficulty": 3,
+      "prompt": "Fill in the conjunction that means “even though”.",
+      "sentence": "Kaféerna ställer ut stolar, ___ det bara är några grader varmt.",
+      "answers": ["trots att"],
+      "translation": "The cafés put out chairs, even though it's only a few degrees.",
+      "explanation": "“Trots att” (although, even though) introduces a subordinate clause. Notice the word order after it: det (subject) – bara (adverb) – är (verb)."
+    }
+  ]
+}

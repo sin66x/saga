@@ -1,0 +1,276 @@
+{
+  "formatVersion": 1,
+  "id": "ett-ar-i-sverige",
+  "version": "1.0.0",
+  "language": "sv",
+  "title": {
+    "sv": "Ett år i Sverige",
+    "en": "A Year in Sweden"
+  },
+  "description": {
+    "sv": "Daniel kommer från Brasilien och flyttar till Umeå i november. Följ honom genom mörker, snö, ljusa nätter och färgglad höst.",
+    "en": "Daniel from Brazil moves to Umeå in November. Follow him through darkness, snow, bright summer nights and a colourful autumn."
+  },
+  "level": { "cefr": "A2-B1", "difficulty": 3 },
+  "estimatedReadingMinutes": 45,
+  "author": "Saga",
+  "cover": { "src": "cover.svg", "alt": "A snowy landscape at dusk with a red cottage, pine trees and green northern lights in the sky", "aspect": 0.75 },
+  "theme": { "accent": "#3D5A80", "coverTint": "#E1E7F0" },
+  "tags": ["seasons", "everyday life", "nature"],
+  "accuracyNote": {
+    "sv": "Daniel och hans vänner är påhittade. Fakta om årstider, traditioner och samhället är sanna.",
+    "en": "Daniel and his friends are fictional. Facts about seasons, traditions and society are real."
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": { "sv": "Vinter", "en": "Winter" },
+      "pages": [
+        {
+          "id": "p01",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p01.svg", "alt": "A young man with a suitcase stands at a small airport in the dark, snowflakes falling", "aspect": 1.33 },
+          "paragraphs": [
+            "När Daniel landar i Umeå en dag i november är klockan bara tre på eftermiddagen. Ändå är det redan mörkt ute.",
+            "Daniel kommer från Salvador i Brasilien, där det är varmt nästan hela året. Nu ska han jobba som ingenjör i Sverige i minst ett år.",
+            "Han drar upp dragkedjan på jackan och tänker: \"Vad har jag gjort?\""
+          ],
+          "summaryEn": "Daniel lands in Umeå in November at 3 pm and it's already dark. He comes from warm Salvador in Brazil and will work as an engineer in Sweden for at least a year."
+        },
+        {
+          "id": "p02",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p02.svg", "alt": "Windows of apartment buildings glowing with star-shaped paper lamps and candle holders in the dark", "aspect": 1.4 },
+          "heading": "Mörkret",
+          "paragraphs": [
+            "I december går solen upp efter klockan tio och ner redan före klockan två. Daniel blir trött och lite ledsen.",
+            "– Du måste ta D-vitamin, säger hans kollega Elin. Och gå ut när det är ljust, även om det är kallt.",
+            "Snart märker Daniel att svenskarna lyser upp mörkret. I nästan alla fönster finns adventsstjärnor och ljusstakar. Hemma tänder folk levande ljus, och det blir mysigt."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "I Umeå är dagen bara cirka fyra timmar lång i slutet av december.",
+              "en": "In Umeå, daylight lasts only about four hours at the end of December."
+            }
+          },
+          "summaryEn": "In December the sun rises after ten and sets before two. His colleague Elin tells him to take vitamin D and go out in daylight. Swedes light up the darkness with advent stars and candles in their windows."
+        },
+        {
+          "id": "p03",
+          "layout": "inset",
+          "kind": "fiction",
+          "image": { "src": "images/p03.svg", "alt": "A man in a thick jacket and hat looking with wonder at falling snow on a street", "aspect": 1.2 },
+          "heading": "Den första snön",
+          "paragraphs": [
+            "En morgon är allt vitt. Daniel har aldrig sett snö förut. Han springer ut utan mössa och fångar snöflingor med händerna.",
+            "Grannen, en äldre man som heter Göran, skrattar vänligt.",
+            "– Du behöver bättre kläder, säger han. Tänk på lager: underställ, en varm tröja och en tjock jacka. Och köp broddar till skorna, annars halkar du på isen.",
+            "Samma eftermiddag köper Daniel allt som Göran har föreslagit."
+          ],
+          "summaryEn": "One morning Daniel sees snow for the first time. His neighbour Göran advises him to dress in layers – thermal underwear, a warm sweater, a thick jacket – and to buy ice grips for his shoes."
+        },
+        {
+          "id": "p04",
+          "layout": "full",
+          "kind": "culture",
+          "image": { "src": "images/p04.svg", "alt": "Two people skating on a frozen lake under green northern lights", "aspect": 1.33 },
+          "heading": "Is och norrsken",
+          "paragraphs": [
+            "I januari lär Elin honom att åka längdskidor. Daniel ramlar många gånger, men han ger inte upp.",
+            "En helg åker de skridskor på en frusen sjö. Elin har med sig ispikar runt halsen. Om isen skulle brista kan man dra sig upp med dem.",
+            "På kvällen, när de går hem, börjar himlen plötsligt röra sig. Gröna band dansar över stjärnorna. Det är norrsken! Daniel står tyst länge. Han har aldrig sett något så vackert."
+          ],
+          "summaryEn": "Elin teaches Daniel cross-country skiing. They skate on a frozen lake, carrying ice claws in case the ice breaks. Walking home they see the northern lights – green ribbons dancing over the stars."
+        },
+        {
+          "id": "p05",
+          "layout": "portrait",
+          "kind": "culture",
+          "image": { "src": "images/p05.svg", "alt": "A semla: a cardamom bun filled with almond paste and whipped cream, dusted with icing sugar", "aspect": 1 },
+          "heading": "Semla",
+          "paragraphs": [
+            "En tisdag i februari står det en stor bulle med grädde på varje bord i fikarummet.",
+            "– Det är fettisdagen idag, förklarar Elin. Då äter man semlor. Det är en vetebulle med mandelmassa och vispgrädde.",
+            "Daniel tar en tugga och får grädde på näsan. Alla skrattar. Han förstår varför svenskarna längtar efter semlor hela vintern."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Kung Adolf Fredrik dog år 1771, efter en stor middag som slutade med semlor.",
+              "en": "King Adolf Fredrik died in 1771 after a huge meal that ended with semlor – a famous story every Swede knows."
+            }
+          },
+          "summaryEn": "On Shrove Tuesday (fettisdagen) in February, everyone eats 'semlor' – buns filled with almond paste and whipped cream. Daniel gets cream on his nose."
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": { "sv": "Vår", "en": "Spring" },
+      "pages": [
+        {
+          "id": "p06",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p06.svg", "alt": "People sitting outside a café with their faces turned toward the spring sun, snow melting on the ground", "aspect": 1.4 },
+          "heading": "Ljuset kommer tillbaka",
+          "paragraphs": [
+            "I mars blir dagarna snabbt längre. Varje dag får Umeå flera minuter mer ljus.",
+            "Snön smälter, och det droppar från taken. Kaféerna ställer ut stolar, trots att det fortfarande bara är några grader varmt.",
+            "Daniel ser människor som sitter med slutna ögon och ansiktet mot solen. Först tycker han att det ser konstigt ut. Efter en lång vinter förstår han dem precis."
+          ],
+          "summaryEn": "In March the days grow longer by several minutes every day. Snow melts and cafés put chairs outside even though it's only a few degrees. People sit with closed eyes facing the sun – after a long winter, Daniel understands them."
+        },
+        {
+          "id": "p07",
+          "layout": "full",
+          "kind": "culture",
+          "image": { "src": "images/p07.svg", "alt": "A large bonfire by a river at dusk, with people standing around it and singing", "aspect": 1.33 },
+          "heading": "Valborg",
+          "paragraphs": [
+            "Den 30 april firar man valborgsmässoafton. Daniel och Elin går ner till älven, där hundratals människor har samlats.",
+            "En kör sjunger sånger om våren, och sedan tänds en stor brasa. Förr i tiden tände man eld för att skrämma bort rovdjur innan djuren släpptes ut på bete.",
+            "– Nu har vintern äntligen gett upp, säger Elin. Daniel håller med, även om han fortfarande har mössa på sig."
+          ],
+          "summaryEn": "On 30 April (Walpurgis Night) people gather by the river. A choir sings spring songs and a large bonfire is lit – a tradition that once scared away predators before animals were let out to graze."
+        },
+        {
+          "id": "p08",
+          "layout": "inset",
+          "kind": "fiction",
+          "image": { "src": "images/p08.svg", "alt": "A classroom with adult students from different countries and a whiteboard with Swedish words", "aspect": 1.2 },
+          "heading": "På SFI",
+          "paragraphs": [
+            "Två kvällar i veckan läser Daniel svenska på SFI, Svenska för invandrare. I hans grupp finns människor från Syrien, Polen, Thailand och Eritrea.",
+            "Läraren Maria är tålmodig. Idag övar de på att boka en tid hos tandläkaren.",
+            "– Det svåraste är ordföljden, säger Daniel. Varför ska verbet alltid stå på plats två?",
+            "– Det är svenskans hemlighet, svarar Maria och ler. Ju mer du läser, desto lättare blir det."
+          ],
+          "summaryEn": "Twice a week Daniel studies Swedish at SFI with people from Syria, Poland, Thailand and Eritrea. The teacher Maria is patient. Daniel finds word order hardest – why must the verb always be in second place?"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": { "sv": "Sommar", "en": "Summer" },
+      "pages": [
+        {
+          "id": "p09",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p09.svg", "alt": "A calm lake reflecting a pink and golden sky close to midnight, with birch trees on the shore", "aspect": 1.4 },
+          "heading": "Ljusa nätter",
+          "paragraphs": [
+            "I juni blir det knappt mörkt alls. Solen går ner sent på kvällen och kommer upp igen bara några timmar senare. Däremellan är himlen rosa och gul.",
+            "Längre norrut, i Kiruna, går solen inte ner alls på sommaren. Det kallas midnattssol.",
+            "Daniel har svårt att sova. Han köper tjocka gardiner, men ofta tar han en promenad vid sjön klockan tolv på natten i stället."
+          ],
+          "summaryEn": "In June it barely gets dark. Further north, in Kiruna, the sun doesn't set at all in summer – the midnight sun. Daniel struggles to sleep and often walks by the lake at midnight."
+        },
+        {
+          "id": "p10",
+          "layout": "full",
+          "kind": "culture",
+          "image": { "src": "images/p10.svg", "alt": "A family at a long table outdoors with herring, potatoes and strawberries, raising small glasses", "aspect": 1.33 },
+          "heading": "Midsommar hos Elins familj",
+          "paragraphs": [
+            "Till midsommar blir Daniel bjuden till Elins familj i en liten by vid kusten. De klär stången och dansar, precis som Elin har berättat.",
+            "Vid det långa bordet sjunger Elins morbror en snapsvisa, \"Helan går\", och alla skålar. Daniel försöker sjunga med, men han kan bara de första orden.",
+            "Senare på kvällen badar de i havet. Vattnet är iskallt, men ingen klagar. \"Det här är Sverige när det är som bäst\", tänker Daniel."
+          ],
+          "summaryEn": "Daniel spends Midsummer with Elin's family by the coast: maypole, dancing, a drinking song ('Helan går') and a swim in the ice-cold sea. 'This is Sweden at its best,' he thinks."
+        },
+        {
+          "id": "p11",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p11.svg", "alt": "A canoe gliding across a forest lake, with a tent on the shore and pine trees all around", "aspect": 1.4 },
+          "heading": "Semester i skogen",
+          "paragraphs": [
+            "I juli har många svenskar semester. Daniel och två vänner från SFI hyr kanoter och paddlar mellan sjöarna i fyra dagar.",
+            "Tack vare allemansrätten kan de slå upp tältet nästan var som helst i skogen. Varje kväll lagar de mat över elden och badar innan de somnar.",
+            "Det enda som stör är myggen. – De är Sveriges riktiga rovdjur, skämtar Daniel och kliar sig på armen."
+          ],
+          "summaryEn": "In July many Swedes are on holiday. Daniel and two SFI friends canoe between lakes for four days, camping almost anywhere thanks to the right of public access. The only problem: mosquitoes."
+        },
+        {
+          "id": "p12",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p12.svg", "alt": "A table covered with red crayfish, paper hats and a smiling moon-shaped lantern", "aspect": 1.2 },
+          "heading": "Kräftskiva",
+          "paragraphs": [
+            "I augusti kommer mörkret tillbaka på kvällarna. Då har många en kräftskiva. Göran bjuder in hela huset till sin gård.",
+            "Det hänger lyktor med gubbansikten i träden, och alla har roliga pappershattar på sig. Man äter kräftor med händerna, och det låter mycket när man suger ut saften.",
+            "– I Brasilien äter vi också skaldjur, säger Daniel, men vi sjunger inte mellan varje tugga!"
+          ],
+          "summaryEn": "In August, when evenings get dark again, Swedes hold crayfish parties. Göran invites the whole building: lanterns with moon faces, paper hats, crayfish eaten with the hands, and songs between bites."
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": { "sv": "Höst", "en": "Autumn" },
+      "pages": [
+        {
+          "id": "p13",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p13.svg", "alt": "An autumn forest in red and yellow with golden chanterelle mushrooms in a basket", "aspect": 1.4 },
+          "heading": "Färgerna",
+          "paragraphs": [
+            "I september blir björkarna gula och blåbärsriset rött. Skogen ser ut som om den brinner.",
+            "Elin lär Daniel att plocka kantareller. – Plocka bara svamp som du är helt säker på, säger hon allvarligt. Vissa svampar är giftiga.",
+            "I början av september börjar också älgjakten i norra Sverige. Många jägare tar ledigt från jobbet, och på vägarna varnar skyltar för älgar som springer över vägen."
+          ],
+          "summaryEn": "In September the birches turn yellow and the forest looks like it's on fire. Elin teaches Daniel to pick chanterelles – only the ones you're completely sure of. Moose hunting begins in northern Sweden."
+        },
+        {
+          "id": "p14",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p14.svg", "alt": "A man talking on the phone at his kitchen table, a cup of tea and a tissue box beside him", "aspect": 1.2 },
+          "heading": "Hos vårdcentralen",
+          "paragraphs": [
+            "I oktober blir Daniel sjuk. Han har feber och ont i halsen. Elin säger att han ska ringa 1177 först, där sjuksköterskor ger råd dygnet runt.",
+            "– Har du personnummer? frågar sjuksköterskan i telefonen. Daniel läser upp sina tio siffror, och hon bokar en tid på vårdcentralen.",
+            "Efteråt är han stolt. Hela samtalet har han klarat på svenska, utan att byta till engelska en enda gång."
+          ],
+          "summaryEn": "In October Daniel gets ill. He calls 1177, where nurses give advice around the clock. With his personal identity number he gets an appointment at the health centre – and manages the whole call in Swedish."
+        },
+        {
+          "id": "p15",
+          "layout": "hero",
+          "kind": "fiction",
+          "image": { "src": "images/p15.svg", "alt": "A warm window at night with candles and a paper star, snow beginning to fall outside", "aspect": 1.4 },
+          "heading": "November igen",
+          "paragraphs": [
+            "Snart är det november igen, och mörkret kommer tillbaka. Men den här gången är Daniel förberedd.",
+            "Han har köpt en adventsstjärna till fönstret och lärt sig att baka lussekatter. Han har vinterkläder, broddar och en lista över vänner som han kan ringa när dagarna känns för korta.",
+            "Mörkret skrämmer honom inte längre. Han har förstått att det är just därför svenskarna är så bra på att göra det mysigt."
+          ],
+          "summaryEn": "November returns with darkness, but now Daniel is ready: an advent star, saffron buns, winter clothes and friends to call. He understands that the darkness is exactly why Swedes are so good at making things cosy."
+        },
+        {
+          "id": "p16",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p16.svg", "alt": "A man writing a letter at a desk by a window, with snow and a red cottage outside", "aspect": 1.33 },
+          "heading": "Ett brev hem",
+          "paragraphs": [
+            "Ett år efter att han landade skriver Daniel ett brev till sin mamma. För första gången skriver han det på svenska.",
+            "\"Kära mamma! Jag trodde att det svåraste skulle vara kylan. Men det svåraste var att våga prata, även när jag gjorde fel. Nu har jag vänner här, och Umeå känns som mitt andra hem.\"",
+            "Han tittar ut genom fönstret. Det snöar igen, men han ler. Ett nytt år i Sverige har börjat."
+          ],
+          "summaryEn": "A year after arriving, Daniel writes to his mother – in Swedish for the first time. The hardest part wasn't the cold but daring to speak while making mistakes. Umeå now feels like his second home."
+        }
+      ]
+    }
+  ],
+  "vocabulary": "vocabulary.json",
+  "quiz": "quiz.json",
+  "exercises": ["exercises/grammar.json"]
+}

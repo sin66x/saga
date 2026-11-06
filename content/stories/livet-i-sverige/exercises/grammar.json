@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "id": "livet-i-sverige-substantiv",
+  "title": { "sv": "Substantiv i vardagen", "en": "Nouns in everyday life" },
+  "grammarTopic": "nouns-definite",
+  "explanation": "Practise en/ett words and definite forms with words from the story about life in Sweden.",
+  "exercises": [
+    {
+      "id": "e01", "type": "choice", "difficulty": 1,
+      "prompt": "Is “lägenhet” an en-word or an ett-word?",
+      "sentence": "Hon har ___ ny lägenhet.",
+      "options": ["en", "ett"],
+      "answer": 0,
+      "explanation": "Lägenhet is an en-word: en lägenhet – lägenheten. Words ending in -het are always en-words."
+    },
+    {
+      "id": "e02", "type": "choice", "difficulty": 1,
+      "prompt": "Is “jobb” an en-word or an ett-word?",
+      "sentence": "Hon har ___ nytt jobb på ett sjukhus.",
+      "options": ["en", "ett"],
+      "answer": 1,
+      "explanation": "Jobb is an ett-word: ett jobb – jobbet. Notice the adjective also changes: ett nytt jobb (ny + t)."
+    },
+    {
+      "id": "e03", "type": "fill", "difficulty": 2,
+      "prompt": "Write the definite form of “en dörr” (a door).",
+      "sentence": "Då knackar det på ___.",
+      "answers": ["dörren"],
+      "translation": "Then there is a knock on the door.",
+      "explanation": "En-words get -en (or -n after a vowel) in the definite singular: en dörr → dörren."
+    },
+    {
+      "id": "e04", "type": "fill", "difficulty": 2,
+      "prompt": "Write the definite form of “ett bord” (a table).",
+      "sentence": "Det står målade ägg på ___.",
+      "answers": ["bordet"],
+      "translation": "There are painted eggs on the table.",
+      "explanation": "Ett-words get -et (or -t after a vowel) in the definite singular: ett bord → bordet."
+    },
+    {
+      "id": "e05", "type": "choice", "difficulty": 2,
+      "prompt": "Choose the plural of “en sjö” (a lake).",
+      "sentence": "Sverige har nästan 100 000 ___.",
+      "options": ["sjöar", "sjöer", "sjön"],
+      "answer": 0,
+      "explanation": "Sjö belongs to the -ar group: en sjö – sjöar. Many short en-words take -ar in the plural (en bil – bilar, en dag – dagar).",
+      "wrong": { "2": "“Sjön” is the definite singular – the lake." }
+    },
+    {
+      "id": "e06", "type": "match", "difficulty": 2,
+      "prompt": "Match the indefinite and definite forms.",
+      "pairs": [["en sko", "skon"], ["ett hus", "huset"], ["en tradition", "traditionen"], ["ett ägg", "ägget"], ["en vecka", "veckan"]],
+      "explanation": "En-words end in -n/-en in the definite form, ett-words in -t/-et. Words ending in a vowel just add -n or -t: sko → skon, vecka → veckan."
+    },
+    {
+      "id": "e07", "type": "correct", "difficulty": 3,
+      "prompt": "This sentence has a mistake. Choose the correct version.",
+      "incorrect": "Barnen är klädda som påskkärringarna och ger henne ett teckning.",
+      "options": [
+        "Barnen är klädda som påskkärringar och ger henne en teckning.",
+        "Barnen är klädda som påskkärringar och ger henne ett teckningen.",
+        "Barnet är klädda som påskkärringar och ger henne ett teckning."
+      ],
+      "answer": 0,
+      "explanation": "Teckning is an en-word (words ending in -ning are en-words): en teckning. After “som” here we mean Easter witches in general, so the indefinite plural “påskkärringar” is used."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "formatVersion": 1,
+  "entries": [
+    {
+      "lemma": "historia",
+      "pos": "noun",
+      "gender": "en",
+      "en": "history, story",
+      "forms": {
+        "indefSg": "historia",
+        "defSg": "historien",
+        "indefPl": "historier",
+        "defPl": "historierna"
+      },
+      "key": true,
+      "note": "Historia means both 'history' and 'a story'.",
+      "example": {
+        "sv": "Sveriges historia är lång.",
+        "en": "Sweden's history is long."
+      },
+      "enPlural": "histories"
+    },
+    {
+      "lemma": "viking",
+      "pos": "noun",
+      "gender": "en",
+      "en": "Viking",
+      "forms": {
+        "indefSg": "viking",
+        "defSg": "vikingen",
+        "indefPl": "vikingar",
+        "defPl": "vikingarna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Vikingarna seglade över havet.",
+        "en": "The Vikings sailed across the sea."
+      }
+    },
+    {
+      "lemma": "bonde",
+      "pos": "noun",
+      "gender": "en",
+      "en": "farmer",
+      "forms": {
+        "indefSg": "bonde",
+        "defSg": "bonden",
+        "indefPl": "bönder",
+        "defPl": "bönderna"
+      },
+      "key": true,
+      "note": "Irregular plural: en bonde – bönder.",
+      "example": {
+        "sv": "De flesta vikingar var bönder.",
+        "en": "Most Vikings were farmers."
+      }
+    },
+    {
+      "lemma": "skepp",
+      "pos": "noun",
+      "gender": "ett",
+      "en": "ship",
+      "forms": {
+        "indefSg": "skepp",
+        "defSg": "skeppet",
+        "indefPl": "skepp",
+        "defPl": "skeppen"
+      },
+      "key": true,
+      "note": "Ett-words ending in a consonant have no plural ending: ett skepp – två skepp.",
+      "example": {
+        "sv": "Skeppet sjönk 1628.",
+        "en": "The ship sank in 1628."
+      },
+      "enPlural": "ships"
+    },
+    {
+      "lemma": "kung",
+      "pos": "noun",
+      "gender": "en",
+      "en": "king",
+      "forms": {
+        "indefSg": "kung",
+        "defSg": "kungen",
+        "indefPl": "kungar",
+        "defPl": "kungarna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Gustav Vasa blev kung 1523.",
+        "en": "Gustav Vasa became king in 1523."
+      }
+    },
+    {
+      "lemma": "drottning",
+      "pos": "noun",
+      "gender": "en",
+      "en": "queen",
+      "forms": {
+        "indefSg": "drottning",
+        "defSg": "drottningen",
+        "indefPl": "drottningar",
+        "defPl": "drottningarna"
+      },
+      "key": true,
+      "example": {
+        "sv": "Kristina blev drottning som barn.",
+        "en": "Kristina became queen as a child."
+      }
+    },
+    {
+      "lemma": "krig",
+      "pos": "noun",
+      "gender": "ett",
+      "en": "war",
+      "forms": {
+        "indefSg": "krig",
+        "defSg": "kriget",
+        "indefPl": "krig",
+        "defPl": "krigen"
+      },
+      "key": true,
+      "example": {
+        "sv": "Kriget var långt.",
+        "en": "The war was long."
+      },
+      "enPlural": "wars"
+    },
+    {
+      "lemma": "handelsstad",
+      "pos": "noun",
+      "gender": "en",
+      "en": "trading town",
+      "forms": {
+        "indefSg": "handelsstad",
+        "defSg": "handelsstaden",
+        "indefPl": "handelsstäder",
+        "defPl": "handelsstäderna"
+      },
+      "key": true,
+      "note": "Handel (trade) + s + stad (town).",
+      "example": {
+        "sv": "Birka var en handelsstad.",
+        "en": "Birka was a trading town."
+      },
+      "enPlural": "trading towns"
+    },
+    {
+      "lemma": "runsten",
+      "pos": "noun",
+      "gender": "en",
+      "en": "runestone",
+      "forms": {
+        "indefSg": "runsten",
+        "defSg": "runstenen",
+        "indefPl": "runstenar",
+        "defPl": "runstenarna"
+      },
+      "key": true,
+      "note": "Run (rune) + sten (stone).",
+      "example": {
+        "sv": "Runstenen står vid vägen.",
+        "en": "The runestone stands by the road."
+      }
+    },
+    {
+      "lemma": "medeltid",
+      "pos": "noun",
+      "gender": "en",
+      "en": "Middle Ages",
+      "forms": {
+        "indefSg": "medeltid",
+        "defSg": "medeltiden"
+      },
+      "key": true,
+      "note": "Usually definite: medeltiden. In Sweden roughly 1050–1520."
+    },
+    {
+      "lemma": "stormakt",
+      "pos": "noun",
+      "gender": "en",
+      "en": "great power",
+      "forms": {
+        "indefSg": "stormakt",
+        "defSg": "stormakten",
+        "indefPl": "stormakter",
+        "defPl": "stormakterna"
+      },
+      "key": true,
+      "note": "Stor (big) + makt (power).",
+      "example": {
+        "sv": "Sverige var en stormakt på 1600-talet.",
+        "en": "Sweden was a great power in the 1600s."
+      }
+    },
+    {
+      "lemma": "nationaldag",
+      "pos": "noun",
+      "gender": "en",
+      "en": "national day",
+      "forms": {
+        "indefSg": "nationaldag",
+        "defSg": "nationaldagen",
+        "indefPl": "nationaldagar",
+        "defPl": "nationaldagarna"
+      },
+      "key": true,
+      "note": "Sweden's national day is 6 June.",
+      "example": {
+        "sv": "Den 6 juni är Sveriges nationaldag.",
+        "en": "6 June is Sweden's national day."
+      }
+    },
+    {
+      "lemma": "resa",
+      "pos": "verb",
+      "en": "to travel",
+      "forms": {
+        "infinitive": "resa",
+        "present": "reser",
+        "past": "reste",
+        "supine": "rest"
+      },
+      "key": true,
+      "note": "Also a noun: en resa = a journey.",
+      "example": {
+        "sv": "Vi ska resa i tiden.",
+        "en": "We are going to travel in time."
+      },
+      "enPast": "travelled",
+      "enParticiple": "travelled"
+    },
+    {
+      "lemma": "bygga",
+      "pos": "verb",
+      "en": "to build",
+      "forms": {
+        "infinitive": "bygga",
+        "present": "bygger",
+        "past": "byggde",
+        "supine": "byggt"
+      },
+      "key": true,
+      "example": {
+        "sv": "Vikingarna byggde skepp.",
+        "en": "The Vikings built ships."
+      },
+      "enPast": "built",
+      "enParticiple": "built"
+    },
+    {
+      "lemma": "förlora",
+      "pos": "verb",
+      "en": "to lose",
+      "forms": {
+        "infinitive": "förlora",
+        "present": "förlorar",
+        "past": "förlorade",
+        "supine": "förlorat"
+      },
+      "key": true,
+      "example": {
+        "sv": "Sverige förlorade Finland 1809.",
+        "en": "Sweden lost Finland in 1809."
+      },
+      "enPast": "lost",
+      "enParticiple": "lost"
+    },
+    {
+      "lemma": "fattig",
+      "pos": "adjective",
+      "en": "poor",
+      "forms": {
+        "common": "fattig",
+        "neuter": "fattigt",
+        "plural": "fattiga",
+        "comparative": "fattigare",
+        "superlative": "fattigast"
+      },
+      "key": true,
+      "example": {
+        "sv": "Många svenskar var fattiga.",
+        "en": "Many Swedes were poor."
+      }
+    },
+    {
+      "lemma": "mäktig",
+      "pos": "adjective",
+      "en": "powerful",
+      "forms": {
+        "common": "mäktig",
+        "neuter": "mäktigt",
+        "plural": "mäktiga",
+        "comparative": "mäktigare",
+        "superlative": "mäktigast"
+      },
+      "key": true,
+      "example": {
+        "sv": "Margareta var mäktig.",
+        "en": "Margareta was powerful."
+      }
+    }
+  ]
+}

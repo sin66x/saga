@@ -1,0 +1,1058 @@
+# Project: Swedish Learning App
+
+Act as a senior mobile application architect, experienced React Native developer, UI/UX designer, and Swedish language-learning specialist.
+
+I want you to design and build a beautiful iOS application that helps me learn Swedish through illustrated stories, interactive vocabulary learning, and SFI-style language exercises.
+
+I am developing on a Linux laptop using Claude Code. Therefore, choose technologies and development workflows that work well on Linux.
+
+Use React Native, Expo, and TypeScript unless you have a compelling technical reason to choose something else.
+
+The application should be designed primarily for iPhone.
+
+This is a personal learning application, but the architecture should be clean, extensible, and suitable for adding more content and features later.
+
+Do not build a generic language-learning app. The main experience should feel like reading a beautifully illustrated children's book while gradually learning Swedish.
+
+---
+
+# 1. Main Concept
+
+The application has four main learning areas:
+
+1. Read illustrated Swedish stories.
+2. Learn and collect new Swedish vocabulary while reading.
+3. Practice Swedish grammar and vocabulary through exercises.
+4. Test knowledge of Swedish history, culture, and facts learned from the stories.
+
+The initial application should contain three complete Swedish stories.
+
+However, I must be able to import additional stories in the future without changing the application code.
+
+The application should support progressive learning from very easy Swedish to intermediate Swedish.
+
+Use SFI (Svenska för invandrare) as the general educational reference, especially the progression from beginner to intermediate levels.
+
+Aim for a progression roughly covering:
+- Very beginner: A1
+- Beginner: A1-A2
+- Elementary: A2
+- Intermediate: B1
+
+The application should not overwhelm beginners.
+
+---
+
+# 2. Design Philosophy and User Experience
+
+This is one of the most important requirements.
+
+I want the application to feel like reading a beautifully illustrated children's book, not reading a website or a textbook.
+
+Visual direction:
+
+- Warm, friendly, Scandinavian-inspired design.
+- Beautiful typography.
+- Soft colors and pleasant backgrounds.
+- Attractive illustrations.
+- Plenty of whitespace.
+- Comfortable reading experience.
+- Subtle animations and transitions.
+- Modern iOS-native feeling.
+- High-quality design rather than a generic mobile app template.
+
+Think of a combination of:
+- A beautifully illustrated children's book.
+- A modern digital reading application.
+- A friendly Swedish language-learning application.
+
+Avoid:
+- Long continuous scrolling text.
+- Dense paragraphs.
+- Too many buttons.
+- Excessive gamification.
+- Distracting UI elements.
+- Generic dashboard designs.
+
+The reading experience should be the central feature.
+
+---
+
+# 3. Home Screen
+
+Create an attractive home screen containing:
+
+### Continue Reading
+Show the currently active story, its cover illustration, reading progress, and a Continue button.
+
+### My Books
+Display all available stories as illustrated book covers.
+
+Each book should display:
+- Cover image.
+- Swedish title.
+- English title.
+- Difficulty level.
+- Estimated reading time.
+- Number of chapters.
+- Reading progress.
+
+### My Vocabulary
+Display:
+- Total saved words.
+- Words recently learned.
+- Words that need practice.
+- Vocabulary mastery progress.
+
+### Practice
+Provide access to grammar and vocabulary exercises.
+
+### Swedish Knowledge
+A section for questions about Swedish history, culture, traditions, and facts learned from stories.
+
+### Learning Progress
+Display useful statistics:
+- Stories completed.
+- Words collected.
+- Words mastered.
+- Exercises completed.
+- Current learning level.
+
+Keep the home screen visually clean.
+
+---
+
+# 4. Illustrated Story Reading Experience
+
+This is the heart of the application.
+
+I want to read stories in Swedish, presented as individual illustrated pages.
+
+A story should contain at least 10 pages. Preferably 10–20 pages depending on the story.
+
+Each page should contain:
+
+- One illustration or graphic when appropriate.
+- A short Swedish text.
+- A comfortable font size.
+- Clear paragraph spacing.
+- Page number.
+- Previous and Next navigation.
+
+The text should not be excessively long.
+
+Think about the layout of a children's illustrated book.
+
+For example:
+
+Page 1:
+A large illustration occupying approximately 50% of the screen.
+
+Below it:
+A Swedish paragraph consisting of approximately 50–100 words.
+
+The exact layout should adapt to the content and device size.
+
+Some pages can have:
+- Large illustrations with short text.
+- Smaller illustrations alongside text.
+- Maps.
+- Historical timelines.
+- Character illustrations.
+- Cultural objects.
+- Simple diagrams.
+
+Do not force every page to use the same layout.
+
+### Reading navigation
+
+Support:
+
+- Swipe left/right to change pages.
+- Previous/Next buttons.
+- Chapter navigation.
+- Reading progress indicator.
+- Bookmarking a page.
+- Resume reading from the last position.
+
+Avoid making the user scroll through a massive article.
+
+Prefer a paginated reading experience.
+
+### Text interaction: Long-press dictionary
+
+This is a critical feature.
+
+When I encounter a Swedish word I don't understand:
+
+1. I long-press the word.
+2. The application identifies the selected word.
+3. A beautiful tooltip or popover appears.
+4. The tooltip displays the English translation.
+5. It also displays the base/dictionary form of the word when applicable.
+6. Optionally display a short explanation or example sentence.
+7. Provide a button to save the word to My Vocabulary.
+
+Example:
+
+Swedish sentence:
+
+"Flickan gick långsamt genom den gamla skogen."
+
+If I long-press "skogen", show:
+
+Swedish word: skogen
+
+Base form: skog
+
+English: the forest
+
+Word type: Noun
+
+Definite form: skogen
+
+Plural: skogar
+
+Example:
+"Skogen är mycket vacker."
+
+Actions:
+- Add to My Words
+- Close
+
+Another example:
+
+Selected word: gick
+
+Base form: gå
+
+English: went
+
+Verb form: Preteritum
+
+Present: går
+
+Past: gick
+
+Supine: gått
+
+### Important technical requirement
+
+Investigate the best way to implement reliable word-level long-press interaction in React Native.
+
+The interaction should work with Swedish characters:
+å, ä, ö.
+
+Avoid a solution that makes normal text selection or reading uncomfortable.
+
+If necessary, implement a custom text-rendering component that supports individual word interaction.
+
+The experience should work consistently across different screen sizes.
+
+### Vocabulary translation
+
+The initial application should work offline.
+
+Therefore, do not require a remote translation API for every word interaction.
+
+Design a local vocabulary dictionary and a translation-resolution architecture.
+
+Possible approaches:
+- A bundled Swedish-English dictionary.
+- A local dictionary database.
+- An optional future AI translation provider.
+
+If a word is not found, show an appropriate fallback rather than inventing a translation.
+
+---
+
+# 5. My Vocabulary
+
+Every word I save while reading should appear in My Vocabulary.
+
+Each vocabulary entry should contain:
+
+- Swedish word.
+- Base form (lemma).
+- English translation.
+- Word type.
+- Original sentence.
+- Source story.
+- Date added.
+- Learning status.
+- Optional notes.
+- Related grammatical forms.
+
+For example:
+
+Word: husen
+
+Base form: hus
+
+English: the houses
+
+Word type: Noun
+
+Singular:
+- Indefinite: ett hus
+- Definite: huset
+
+Plural:
+- Indefinite: hus
+- Definite: husen
+
+### Vocabulary organization
+
+Allow me to:
+- Search saved words.
+- Filter by story.
+- Filter by word type.
+- Filter by learning status.
+- Sort by recently added.
+- Mark words as learned.
+- Review difficult words.
+
+### Vocabulary practice
+
+Create a spaced-repetition system.
+
+Words should have learning states such as:
+- New
+- Learning
+- Reviewing
+- Mastered
+
+Use a simple spaced-repetition algorithm initially.
+
+For example:
+- Review new words frequently.
+- Increase intervals after correct answers.
+- Bring difficult words back sooner.
+
+Provide a daily review screen.
+
+### Vocabulary exercises
+
+Include different practice types:
+
+1. Swedish → English translation.
+2. English → Swedish translation.
+3. Multiple-choice questions.
+4. Fill in the missing word.
+5. Match Swedish words with English meanings.
+6. Identify the correct word in a sentence.
+
+Use the original story sentences whenever possible.
+
+---
+
+# 6. Swedish Grammar Practice
+
+Create a separate grammar-learning section.
+
+The exercises should follow concepts commonly taught in SFI.
+
+Organize exercises by topic and difficulty.
+
+Initially, implement the following topics:
+
+### A. Nouns
+
+- En and ett.
+- Indefinite and definite forms.
+- Singular and plural.
+- Plural endings:
+  - -or
+  - -ar
+  - -er
+  - -n
+  - No ending change.
+- Definite plural forms.
+- Common noun exceptions.
+
+Example:
+
+En flicka → flickan → flickor → flickorna
+
+Ett hus → huset → hus → husen
+
+### B. Verbs
+
+Teach:
+- Infinitiv.
+- Presens.
+- Preteritum.
+- Supinum.
+- Future tense.
+- Regular and irregular verbs.
+
+Example:
+
+Att gå:
+- Presens: går
+- Preteritum: gick
+- Supinum: gått
+
+Att prata:
+- Infinitiv: prata
+- Presens: pratar
+- Preteritum: pratade
+- Supinum: pratat
+
+### C. Adjectives
+
+Teach:
+- Adjective agreement.
+- En words.
+- Ett words.
+- Plural forms.
+- Definite forms.
+- Comparative.
+- Superlative.
+
+Example:
+
+Stor:
+- En stor bil.
+- Ett stort hus.
+- Stora hus.
+
+### D. Pronouns
+
+Teach:
+- Personal pronouns.
+- Possessive pronouns.
+- Object pronouns.
+- Reflexive pronouns.
+- Demonstrative pronouns.
+
+### E. Sentence Structure
+
+Teach:
+- Basic Swedish sentence structure.
+- Subject and verb.
+- Main clauses.
+- Word order.
+- V2 rule.
+- Questions.
+- Negation.
+- Adverb placement.
+
+### F. Prepositions
+
+Teach common prepositions:
+- I
+- På
+- Till
+- Från
+- Med
+- För
+- Av
+- Hos
+- Under
+- Över
+
+### G. Other important SFI topics
+
+Include:
+- Question words.
+- Conjunctions.
+- Time expressions.
+- Adverbs.
+- Common expressions.
+- Modal verbs.
+- Imperative.
+
+### Exercise experience
+
+Every grammar topic should have:
+
+1. A short explanation in simple English.
+2. Swedish examples.
+3. A practice section.
+4. Immediate feedback.
+5. An explanation of why the answer is correct or incorrect.
+
+Use varied exercises:
+- Multiple choice.
+- Fill in the blank.
+- Sentence construction.
+- Matching.
+- Choosing the correct grammatical form.
+- Correcting incorrect sentences.
+
+Do not simply show the correct answer.
+
+Explain the grammar behind it.
+
+Start with relatively easy exercises and gradually increase difficulty.
+
+---
+
+# 7. Swedish History and Culture Stories
+
+Generate three initial complete stories.
+
+These should be interesting, educational, and written in natural Swedish using simple vocabulary.
+
+The stories should primarily cover Swedish history and culture.
+
+They should be suitable for someone learning Swedish.
+
+Avoid overly academic language.
+
+Use short sentences and common vocabulary.
+
+Introduce slightly more advanced vocabulary gradually.
+
+The stories should have a coherent narrative rather than being disconnected collections of facts.
+
+## Story 1: Sveriges historia – Från vikingar till idag
+
+English title: The History of Sweden – From the Vikings to Today.
+
+Difficulty: Very easy to easy (A1–A2).
+
+Cover subjects such as:
+- Early life in Scandinavia.
+- The Viking Age.
+- Viking ships and trade.
+- Life in medieval Sweden.
+- Kings and queens.
+- Gustav Vasa.
+- The Swedish Empire.
+- Industrialization.
+- The development of modern Sweden.
+- Sweden today.
+
+Present historical events in chronological order.
+
+Introduce important historical figures and places.
+
+## Story 2: Livet i Sverige – Traditioner och kultur
+
+English title: Life in Sweden – Traditions and Culture.
+
+Difficulty: Easy to elementary (A2).
+
+Cover:
+- Swedish traditions.
+- Midsommar.
+- Lucia.
+- Christmas in Sweden.
+- Easter.
+- Fika.
+- Swedish food.
+- Swedish nature.
+- Swedish social customs.
+- The importance of equality.
+- Swedish work-life balance.
+- Everyday life in Sweden.
+
+Make it engaging and practical.
+
+Teach things that someone living in Sweden would find useful to know.
+
+## Story 3: Ett år i Sverige
+
+English title: A Year in Sweden.
+
+Difficulty: Elementary to intermediate (A2–B1).
+
+Create a fictional narrative following a character living in Sweden through all four seasons.
+
+Introduce Swedish culture and traditions naturally through the character's experiences.
+
+Cover:
+- Winter and darkness.
+- Snow and winter activities.
+- Spring.
+- Swedish summer.
+- Midsommar.
+- Swedish forests and lakes.
+- Autumn.
+- Everyday interactions.
+- Swedish food.
+- Local traditions.
+
+The story should teach vocabulary through context.
+
+Introduce more complex sentences gradually.
+
+### Story quality requirements
+
+Each story must:
+- Contain at least 10 pages.
+- Preferably contain 12–20 pages.
+- Have an interesting beginning, middle, and ending.
+- Use natural Swedish.
+- Have a consistent difficulty level.
+- Introduce vocabulary progressively.
+- Avoid unnecessary repetition.
+- Include historical and cultural facts that are accurate.
+
+For historical information, prioritize accuracy over storytelling.
+
+Clearly distinguish historical facts from fictional elements.
+
+---
+
+# 8. Illustrations and Graphics
+
+Illustrations are essential.
+
+I don't want a text-only application.
+
+Each story should have an attractive cover and illustrations throughout.
+
+The visual style should be consistent.
+
+Suggested style:
+- Scandinavian children's book illustration.
+- Warm, friendly, slightly watercolor-inspired artwork.
+- Soft colors.
+- Beautiful natural environments.
+- Historically appropriate clothing and objects.
+- Attractive characters.
+
+Possible illustrations:
+- Viking ships.
+- Viking villages.
+- Medieval Swedish towns.
+- Gustav Vasa.
+- Historical Stockholm.
+- Traditional Swedish houses.
+- Midsommar celebrations.
+- Lucia celebrations.
+- Swedish forests and lakes.
+- Winter landscapes.
+- Traditional Swedish food.
+
+Use original illustrations or appropriately licensed assets.
+
+Do not depend on external image URLs that might stop working.
+
+Store illustrations locally with the story content.
+
+If image generation is available, generate original illustrations.
+
+If not, create appropriate image placeholders and document the required illustrations.
+
+The application should be designed to accommodate illustrations for imported stories.
+
+---
+
+# 9. Questions and Knowledge Tests
+
+I want to test whether I actually understand the stories and remember the facts.
+
+Each story should have its own quiz.
+
+Generate approximately 10–15 questions per story.
+
+Question categories:
+
+### Reading comprehension
+
+Example:
+
+"Var bodde vikingarna?"
+
+Options:
+- I Sverige och andra delar av Skandinavien.
+- I Afrika.
+- I Australien.
+
+### Historical knowledge
+
+Example:
+
+"Vem var Gustav Vasa?"
+
+### Cultural knowledge
+
+Example:
+
+"Vad betyder fika i Sverige?"
+
+### Vocabulary comprehension
+
+Example:
+
+"What does 'högtid' mean?"
+
+### True or false
+
+Example:
+
+"Lucia firas i december."
+
+### Question difficulty
+
+Questions should progress from simple factual questions to questions requiring a little interpretation.
+
+After answering:
+- Show whether the answer is correct.
+- Explain the answer in simple English.
+- Show the relevant Swedish information.
+- Optionally refer to the story page where the answer was introduced.
+
+Track quiz results.
+
+Allow me to repeat quizzes.
+
+Create a separate Swedish History & Culture knowledge section where I can practice questions from all completed stories.
+
+---
+
+# 10. Importing New Stories
+
+This is a very important architectural requirement.
+
+Initially, there should be three stories.
+
+However, I must be able to add more stories later without modifying the application code or rebuilding it.
+
+Design a flexible story content format.
+
+I should be able to ask Claude to generate a new story and then import it into the application.
+
+Prefer a self-contained ZIP package containing:
+
+- story.json
+- Cover illustration.
+- Page illustrations.
+- Optional maps and diagrams.
+- Quiz questions.
+- Vocabulary metadata.
+- Grammar exercises associated with the story.
+
+Example structure:
+
+story-package.zip
+
+  story.json
+  cover.png
+
+  images/
+    page-01.png
+    page-02.png
+    page-03.png
+
+  vocabulary.json
+  quiz.json
+
+  exercises/
+    grammar.json
+
+The application should support importing stories using the iOS Files interface.
+
+Also support importing JSON packages if appropriate.
+
+Validate imported packages before adding them to the library.
+
+Check:
+- Required metadata.
+- Unique story ID.
+- Page content.
+- Image references.
+- Quiz structure.
+- Supported content format version.
+
+Provide meaningful import errors.
+
+Support exporting stories and backing up user data where practical.
+
+### Story metadata
+
+Each story should support:
+
+- Unique ID.
+- Swedish title.
+- English title.
+- Description.
+- Difficulty level.
+- Language level.
+- Estimated reading time.
+- Author.
+- Cover image.
+- Chapters.
+- Pages.
+- Illustrations.
+- Vocabulary.
+- Quiz.
+- Related exercises.
+
+Design the content format so it can be extended later without breaking old stories.
+
+---
+
+# 11. Learning Dashboard
+
+Create a simple dashboard showing my learning progress.
+
+Track:
+
+- Total reading time.
+- Stories completed.
+- Pages read.
+- Vocabulary collected.
+- Vocabulary mastered.
+- Words awaiting review.
+- Grammar exercises completed.
+- Quiz scores.
+- Grammar topics practiced.
+
+Show progress visually.
+
+Avoid unnecessary competitive gamification.
+
+The purpose is to encourage consistent learning.
+
+---
+
+# 12. Technical Architecture
+
+Use a maintainable and modular architecture.
+
+Suggested technologies:
+
+- React Native.
+- Expo.
+- TypeScript.
+- Expo Router.
+- SQLite for local persistence.
+- AsyncStorage only for lightweight preferences if needed.
+- React Native Gesture Handler where appropriate.
+- A suitable typography and rich-text solution for the reading experience.
+
+The app should work offline.
+
+All essential reading, vocabulary, grammar exercises, and quizzes must work without an internet connection.
+
+Do not require user registration.
+
+Do not require a backend for the initial version.
+
+Keep the architecture ready for optional future synchronization.
+
+### Suggested modules
+
+- Home
+- Library
+- Reader
+- Vocabulary
+- Vocabulary Practice
+- Grammar
+- Grammar Exercises
+- History & Culture
+- Quizzes
+- Progress
+- Settings
+- Story Import
+
+Keep business logic separate from UI components.
+
+Create reusable components.
+
+Use TypeScript types for all story content and application data.
+
+Implement proper error handling.
+
+Preserve user progress when the application closes or restarts.
+
+---
+
+# 13. User Interface Details
+
+Pay particular attention to:
+
+### Reader
+
+- Beautiful page layouts.
+- Good typography.
+- Comfortable reading.
+- Page navigation.
+- Word selection.
+- Translation tooltip.
+- Bookmarking.
+- Reading progress.
+
+### Vocabulary
+
+- Attractive vocabulary cards.
+- Clear Swedish and English text.
+- Grammar information.
+- Example sentences.
+- Review actions.
+
+### Exercises
+
+- Clear questions.
+- Large touch targets.
+- Immediate feedback.
+- Explanations.
+- Progress indicators.
+
+### Navigation
+
+Use a simple iOS-friendly bottom navigation bar.
+
+Suggested tabs:
+
+1. Home
+2. Books
+3. Vocabulary
+4. Practice
+5. Progress
+
+Story-specific quizzes and cultural knowledge can be accessed from the book details and relevant sections.
+
+---
+
+# 14. Development Strategy
+
+Do not attempt to build everything in one enormous implementation step.
+
+Work in phases.
+
+Before coding:
+
+1. Inspect the existing project directory.
+2. Determine whether a project already exists.
+3. Propose the architecture.
+4. Explain the technology choices.
+5. Define the database schema.
+6. Define the story JSON format.
+7. Explain how word-level long-press interaction will work.
+8. Identify technical risks.
+9. Create a development roadmap.
+
+Then implement the application incrementally.
+
+### Phase 1: Foundation
+
+- Initialize the Expo project.
+- Set up TypeScript.
+- Configure navigation.
+- Establish design tokens.
+- Create the database.
+- Create the home screen.
+- Create the book library.
+
+### Phase 2: Reading experience
+
+- Implement story pages.
+- Implement page navigation.
+- Implement illustrations.
+- Implement reading progress.
+- Implement word-level long-press.
+- Implement translation tooltip.
+
+### Phase 3: Vocabulary
+
+- Implement saved vocabulary.
+- Implement vocabulary management.
+- Implement spaced repetition.
+- Implement vocabulary exercises.
+
+### Phase 4: Grammar
+
+- Implement grammar topics.
+- Implement explanations.
+- Implement exercises.
+- Implement feedback and progress tracking.
+
+### Phase 5: Stories and quizzes
+
+- Create the three initial stories.
+- Add illustrations.
+- Add vocabulary metadata.
+- Add quizzes.
+- Add historical and cultural knowledge questions.
+
+### Phase 6: Import functionality
+
+- Implement story package import.
+- Validate packages.
+- Handle illustrations.
+- Add imported stories to the library.
+
+### Phase 7: Polish
+
+- Improve animations.
+- Improve typography.
+- Test on different iPhone screen sizes.
+- Test offline functionality.
+- Test data persistence.
+- Fix bugs.
+- Improve accessibility.
+
+Do not sacrifice the quality of the reading experience to rush through features.
+
+---
+
+# 15. Development Environment and Testing
+
+I am developing on Linux.
+
+Provide commands for:
+- Installing dependencies.
+- Starting the development server.
+- Running the application.
+- Testing on a physical iPhone using Expo Go.
+- Running tests.
+- Creating production builds.
+
+Do not assume Xcode is installed.
+
+Clearly explain which tasks can be completed on Linux and which require macOS or a cloud build service.
+
+Keep the application compatible with future iOS distribution through TestFlight and the App Store.
+
+---
+
+# 16. Important Product Decisions
+
+Follow these principles:
+
+1. Reading Swedish stories is the primary experience.
+2. The UI must be beautiful and enjoyable.
+3. Stories should resemble illustrated children's books.
+4. Swedish vocabulary must be accessible through long-press.
+5. Vocabulary collection must be effortless.
+6. Grammar exercises must be educational, not just quizzes.
+7. Historical and cultural information must be accurate.
+8. The application must work offline.
+9. Adding new stories must be easy.
+10. The application should be extensible.
+
+Do not implement unnecessary features that make the application complicated.
+
+Prioritize usability and quality.
+
+---
+
+# 17. Expected First Deliverables
+
+Start by producing:
+
+1. Product architecture.
+2. Technology stack and justification.
+3. Database schema.
+4. Story package specification.
+5. UI screen structure.
+6. Word-selection technical implementation proposal.
+7. Development roadmap.
+
+After presenting the architecture, start implementing Phase 1.
+
+Do not stop at producing documentation. I want you to actually build the application.
+
+Work autonomously, make sensible design decisions, and use your judgment.
+
+If you encounter a technical limitation, explain it and implement the best practical alternative.
+
+Write clean, maintainable, production-quality code.
+
+Most importantly, make this feel like a beautiful Swedish illustrated reading experience rather than another generic language-learning app.

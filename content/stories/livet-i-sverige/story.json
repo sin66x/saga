@@ -1,0 +1,280 @@
+{
+  "formatVersion": 1,
+  "id": "livet-i-sverige",
+  "version": "1.0.0",
+  "language": "sv",
+  "title": {
+    "sv": "Livet i Sverige",
+    "en": "Life in Sweden"
+  },
+  "description": {
+    "sv": "Traditioner och kultur. Nadia flyttar till Uppsala och lär sig hur livet i Sverige fungerar – med hjälp av sin granne Karin.",
+    "en": "Traditions and culture. Nadia moves to Uppsala and learns how life in Sweden works – with help from her neighbour Karin."
+  },
+  "level": { "cefr": "A2", "difficulty": 2 },
+  "estimatedReadingMinutes": 35,
+  "author": "Saga",
+  "cover": { "src": "cover.svg", "alt": "A red wooden cottage with white corners, a coffee cup and cinnamon buns on a table outside", "aspect": 0.75 },
+  "theme": { "accent": "#3E7A6A", "coverTint": "#E3EEE6" },
+  "tags": ["culture", "traditions", "everyday life"],
+  "accuracyNote": {
+    "sv": "Nadia och Karin är påhittade personer. Fakta om traditioner och samhället är sanna.",
+    "en": "Nadia and Karin are fictional. The facts about traditions and society are real."
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": { "sv": "En ny granne", "en": "A new neighbour" },
+      "pages": [
+        {
+          "id": "p01",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p01.svg", "alt": "A young woman with moving boxes in front of a yellow apartment building", "aspect": 1.33 },
+          "paragraphs": [
+            "Nadia är tjugoåtta år. Hon har precis flyttat till Uppsala. Hon har en ny lägenhet och ett nytt jobb på ett sjukhus.",
+            "Allt är nytt: språket, maten och vädret. Nadia är lite nervös.",
+            "Då knackar det på dörren. Utanför står en äldre kvinna med en tårta i händerna.",
+            "– Hej! Jag heter Karin. Jag bor i lägenheten bredvid. Välkommen!"
+          ],
+          "summaryEn": "Nadia (28) has just moved to Uppsala for a new hospital job. Everything is new. Her neighbour Karin knocks with a cake to welcome her."
+        },
+        {
+          "id": "p02",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p02.svg", "alt": "A row of shoes on a mat inside the front door of a Swedish home", "aspect": 1.2 },
+          "heading": "Skorna av, tack!",
+          "paragraphs": [
+            "Nästa dag hälsar Nadia på hos Karin. I hallen står många skor på en matta.",
+            "– Ska jag ta av mig skorna? frågar Nadia.",
+            "– Ja, det gör man i Sverige, säger Karin. Vi går inte in med skor. Det blir smutsigt, särskilt på vintern.",
+            "Karin berättar också att svenskar ofta är punktliga. Om man säger klockan tre, så kommer man klockan tre."
+          ],
+          "factBox": {
+            "kind": "tip",
+            "text": {
+              "sv": "Kommer du sent? Skicka ett sms och säg till.",
+              "en": "Running late? Send a text and let people know – Swedes appreciate punctuality."
+            }
+          },
+          "summaryEn": "At Karin's flat, Nadia learns that Swedes take their shoes off indoors and are usually punctual."
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": { "sv": "Fika och mat", "en": "Fika and food" },
+      "pages": [
+        {
+          "id": "p03",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p03.svg", "alt": "Two coffee cups and cinnamon buns on a wooden table by a window", "aspect": 1.4 },
+          "heading": "Fika",
+          "paragraphs": [
+            "Karin sätter på kaffe och tar fram kanelbullar.",
+            "– Nu fikar vi, säger hon.",
+            "Fika är ett viktigt ord i Sverige. Det betyder att man dricker kaffe eller te och äter något gott, ofta en bulle eller en kaka. Men det viktigaste är att man pratar och tar en paus tillsammans.",
+            "På många arbetsplatser fikar man varje dag, ofta på förmiddagen och på eftermiddagen."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Den 4 oktober är det kanelbullens dag.",
+              "en": "4 October is Cinnamon Bun Day in Sweden."
+            }
+          },
+          "summaryEn": "Karin makes coffee and serves cinnamon buns. 'Fika' means having coffee or tea with something sweet – but above all taking a break and talking together. Many workplaces have fika every day."
+        },
+        {
+          "id": "p04",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p04.svg", "alt": "A plate of meatballs with potatoes, brown sauce and lingonberry jam", "aspect": 1.4 },
+          "heading": "Svensk mat",
+          "paragraphs": [
+            "En vecka senare bjuder Karin på middag. Hon lagar köttbullar med potatis, brunsås och lingonsylt.",
+            "– Det här är husmanskost, förklarar hon. Vanlig svensk mat som våra mor- och farföräldrar åt.",
+            "Annan typisk mat är sill, gravad lax, ärtsoppa och pannkakor. Många äter ärtsoppa och pannkakor på torsdagar. På fredagar äter många familjer tacos och tittar på tv. Det kallas fredagsmys."
+          ],
+          "summaryEn": "Karin cooks meatballs with potatoes, gravy and lingonberry jam – traditional 'husmanskost'. Other typical foods: herring, cured salmon, pea soup and pancakes (Thursdays). On Fridays many families eat tacos: 'fredagsmys'."
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": { "sv": "Högtider under året", "en": "Holidays through the year" },
+      "pages": [
+        {
+          "id": "p05",
+          "layout": "full",
+          "kind": "culture",
+          "image": { "src": "images/p05.svg", "alt": "A girl in a white dress with a crown of candles, followed by children holding candles in the dark", "aspect": 1.33 },
+          "heading": "Lucia",
+          "paragraphs": [
+            "Det är den 13 december och mörkt ute. På Nadias sjukhus släcker man lamporna. Sedan kommer ett luciatåg in.",
+            "Först går Lucia. Hon har en lång vit klänning och ljus i håret. Efter henne kommer tärnor, stjärngossar och små tomtar. Alla sjunger.",
+            "Efteråt äter alla lussekatter och pepparkakor. Nadia får tårar i ögonen. Det är så vackert."
+          ],
+          "summaryEn": "On 13 December, a Lucia procession comes into Nadia's hospital: Lucia in a white dress with candles in her hair, followed by attendants, star boys and little elves, all singing. Then saffron buns and ginger biscuits."
+        },
+        {
+          "id": "p06",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p06.svg", "alt": "A Christmas table with ham, meatballs and candles, with a decorated tree in the background", "aspect": 1.4 },
+          "heading": "Jul",
+          "paragraphs": [
+            "Karin bjuder Nadia att fira jul med hennes familj. I Sverige firar man mest på julafton, den 24 december.",
+            "På eftermiddagen tittar alla på Kalle Anka på tv. Det har man gjort sedan 1960. Sedan äter man julbord med skinka, köttbullar, sill och Janssons frestelse.",
+            "På kvällen kommer tomten med julklappar. Han frågar: – Finns det några snälla barn här?"
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Kalle Anka visas klockan 15 på julafton varje år.",
+              "en": "Donald Duck ('Kalle Anka') has been shown on Swedish TV at 3 pm on Christmas Eve every year since 1960."
+            }
+          },
+          "summaryEn": "Swedes celebrate Christmas mainly on Christmas Eve (24 December): Donald Duck on TV at 3 pm, a Christmas buffet with ham, meatballs, herring and 'Jansson's temptation', and Father Christmas ('tomten') bringing presents."
+        },
+        {
+          "id": "p07",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p07.svg", "alt": "Children dressed as little Easter witches with headscarves and red cheeks, and birch twigs with colourful feathers", "aspect": 1.2 },
+          "heading": "Påsk",
+          "paragraphs": [
+            "I april knackar två små flickor på Nadias dörr. De har sjal, långa kjolar och röda kinder.",
+            "– Glad påsk! säger de och ger henne en teckning.",
+            "Karin förklarar: Barnen är klädda som påskkärringar. Förr i tiden trodde man att häxor flög till Blåkulla på påsken. Nu ger man barnen godis för teckningarna.",
+            "Hemma har Karin påskris med färgglada fjädrar och målade ägg på bordet."
+          ],
+          "summaryEn": "At Easter, children dress up as little 'Easter witches' and give drawings in exchange for sweets. In the past people believed witches flew to Blåkulla at Easter. Homes are decorated with feathered birch twigs and painted eggs."
+        },
+        {
+          "id": "p08",
+          "layout": "full",
+          "kind": "culture",
+          "image": { "src": "images/p08.svg", "alt": "People dancing around a tall maypole covered in leaves and flowers in a green meadow", "aspect": 1.33 },
+          "heading": "Midsommar",
+          "paragraphs": [
+            "I juni är nätterna nästan ljusa. Det är dags för midsommar, en av årets största högtider. Midsommarafton är alltid en fredag mellan den 19 och den 25 juni.",
+            "Nadia och Karins familj åker till landet. Där klär de en midsommarstång med blad och blommor. Sedan dansar alla runt stången och sjunger \"Små grodorna\".",
+            "De äter sill, färskpotatis och jordgubbar. På kvällen lägger man sju blommor under kudden. Då drömmer man om sin framtida kärlek, säger man."
+          ],
+          "summaryEn": "Midsummer Eve is always a Friday between 19 and 25 June. People decorate a maypole, dance around it singing 'Små grodorna', and eat herring, new potatoes and strawberries. Seven flowers under your pillow are said to make you dream of your future love."
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": { "sv": "Naturen", "en": "Nature" },
+      "pages": [
+        {
+          "id": "p09",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p09.svg", "alt": "A small tent by a calm lake surrounded by pine trees in the evening light", "aspect": 1.4 },
+          "heading": "Allemansrätten",
+          "paragraphs": [
+            "En helg tar Karin med Nadia ut i skogen. De går länge på en stig och plockar blåbär.",
+            "– Får man verkligen plocka bär här? frågar Nadia.",
+            "– Ja, tack vare allemansrätten, säger Karin. Alla får vara i naturen. Man får gå, plocka bär och svamp och sova i tält en natt eller två. Men man ska inte vara för nära någons hus.",
+            "Regeln är enkel: inte störa, inte förstöra."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "Ungefär 70 procent av Sverige är täckt av skog.",
+              "en": "About 70% of Sweden is covered by forest."
+            }
+          },
+          "summaryEn": "Thanks to 'allemansrätten' (the right of public access) everyone may walk in nature, pick berries and mushrooms, and camp for a night or two – but not too close to someone's house. The rule: don't disturb, don't destroy."
+        },
+        {
+          "id": "p10",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p10.svg", "alt": "A wooden jetty on a lake with a small red sauna and a person swimming", "aspect": 1.2 },
+          "paragraphs": [
+            "Sverige har nästan 100 000 sjöar. På sommaren badar många i sjöar och i havet. Många familjer har en liten stuga på landet eller i skärgården.",
+            "– Svenskar älskar att vara ute, säger Karin. Vi har ett eget ord för det: friluftsliv.",
+            "– Även när det regnar? frågar Nadia.",
+            "– Ja! Det finns inget dåligt väder, bara dåliga kläder, säger Karin och skrattar."
+          ],
+          "summaryEn": "Sweden has almost 100,000 lakes. Many families have a summer cottage. Swedes love 'friluftsliv' – outdoor life. A common saying: 'There's no bad weather, only bad clothes.'"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": { "sv": "Samhället", "en": "Society" },
+      "pages": [
+        {
+          "id": "p11",
+          "layout": "hero",
+          "kind": "culture",
+          "image": { "src": "images/p11.svg", "alt": "A father pushing a pram in a park, other dads with prams nearby", "aspect": 1.4 },
+          "heading": "Jämställdhet",
+          "paragraphs": [
+            "I parken ser Nadia många pappor med barnvagnar.",
+            "– I Sverige är det vanligt att pappor är föräldralediga, säger Karin. Föräldrarna får dela på 480 dagar per barn. Nittio av dagarna är bara för pappan och nittio bara för mamman.",
+            "Jämställdhet betyder att kvinnor och män ska ha samma rättigheter och möjligheter. Det är mycket viktigt i Sverige, hemma och på jobbet."
+          ],
+          "factBox": {
+            "kind": "fact",
+            "text": {
+              "sv": "År 1974 blev Sverige det första landet där pappor kunde vara föräldralediga.",
+              "en": "In 1974 Sweden became the first country to let fathers take paid parental leave."
+            }
+          },
+          "summaryEn": "Many fathers in Sweden take parental leave. Parents share 480 days per child, and 90 days are reserved for each parent. Gender equality – the same rights and opportunities for women and men – is very important in Sweden."
+        },
+        {
+          "id": "p12",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p12.svg", "alt": "A balance scale with a briefcase on one side and a family on the other", "aspect": 1.2 },
+          "heading": "Lagom",
+          "paragraphs": [
+            "På sjukhuset slutar Nadias kollegor ofta jobbet klockan fyra eller fem. Sedan hämtar de barnen och lagar middag.",
+            "– Fritiden är viktig här, säger hennes chef. Alla har rätt till minst fem veckors semester. Många tar ledigt i juli.",
+            "Svenskarna har ett ord för den här balansen: lagom. Lagom betyder inte för mycket och inte för lite. Precis lagom."
+          ],
+          "summaryEn": "Nadia's colleagues often finish at four or five to pick up children. Everyone has the right to at least five weeks' holiday; many take July off. 'Lagom' means not too much, not too little – just right."
+        },
+        {
+          "id": "p13",
+          "layout": "inset",
+          "kind": "culture",
+          "image": { "src": "images/p13.svg", "alt": "A queue ticket machine with a red ticket coming out of it", "aspect": 1.2 },
+          "heading": "Vardagen",
+          "paragraphs": [
+            "Nadia lär sig mycket om vardagen. På apoteket tar man en nummerlapp och väntar på sin tur. Ingen tränger sig före.",
+            "Hemma sorterar man soporna: papper, plast, glas, metall och matavfall i olika kärl.",
+            "Tomma burkar och flaskor lämnar man tillbaka i affären. Det heter pant, och man får pengar tillbaka."
+          ],
+          "summaryEn": "Everyday life: at the pharmacy you take a queue ticket and wait your turn. At home you sort rubbish into paper, plastic, glass, metal and food waste. Empty cans and bottles go back to the shop for a deposit refund ('pant')."
+        },
+        {
+          "id": "p14",
+          "layout": "full",
+          "kind": "fiction",
+          "image": { "src": "images/p14.svg", "alt": "Two women laughing at a kitchen table with coffee and a tray of fresh cinnamon buns", "aspect": 1.33 },
+          "paragraphs": [
+            "Ett år har gått. Nu är det Nadia som knackar på Karins dörr. Hon har bakat kanelbullar själv.",
+            "– Kom in och fika hos mig, säger hon. Och ta av dig skorna!",
+            "Karin skrattar. – Du är nästan mer svensk än jag nu.",
+            "Nadia ler. Sverige känns inte längre nytt. Det känns som hemma."
+          ],
+          "summaryEn": "A year later, Nadia knocks on Karin's door with homemade cinnamon buns and invites her for fika. 'You're almost more Swedish than me,' Karin laughs. Sweden now feels like home."
+        }
+      ]
+    }
+  ],
+  "vocabulary": "vocabulary.json",
+  "quiz": "quiz.json",
+  "exercises": ["exercises/grammar.json"]
+}
